@@ -220,6 +220,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 }
                 const modalHeader = document.querySelector('#notificationModal .modal-body h5');
                 modalHeader.innerHTML = `Order <strong>${pushData.token_no}</strong> is <strong>${pushData.status}</strong> at Counter <strong>${pushData.counter_no}</strong>!`;
+                
             }
         });
     }
@@ -282,6 +283,9 @@ document.addEventListener('DOMContentLoaded', function() {
                     const orderReadyMessage = new SpeechSynthesisUtterance(`Your Order ${token} is ${data.status} at the counter ${data.counter_no}.`);
                     speechSynthesis.speak(orderReadyMessage);
                     notificationModal.show();
+                    const modalHeader = document.querySelector('#notificationModal .modal-body h5');
+                    modalHeader.innerHTML = `Order <strong>${data.token_no}</strong> is <strong>${data.status}</strong> at Counter <strong>${data.counter_no}</strong>!`;
+                    
                     if (navigator.vibrate) {
                         navigator.vibrate([500, 200, 500, 200, 500, 200, 500]);
                     }
