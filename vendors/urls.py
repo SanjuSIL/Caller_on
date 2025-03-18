@@ -9,5 +9,6 @@ urlpatterns = [
     # Add the proxy endpoint
     path('proxy/api/update-order/', views.proxy_update_order, name='proxy-update-order'),
     path('api/save-subscription/', views.save_subscription, name='save-subscription'),
+    path('test-push/', views.test_push_notification, name='test-push'),
     
 ]

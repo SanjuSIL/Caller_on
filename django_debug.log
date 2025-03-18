@@ -1,0 +1,372 @@
+[2025-03-18 14:22:13,388] INFO django.server: "GET /check-status/?token_no=2000 HTTP/1.1" 201 253
+[2025-03-18 14:22:13,716] INFO django.server: "POST /vendors/api/save-subscription/ HTTP/1.1" 200 47
+[2025-03-18 14:22:40,434] INFO vendors.utils: Sending push notification with payload: {'title': 'Order Update', 'body': 'Your order 2000 is now ready.', 'token_no': '2000', 'status': 'ready', 'counter_no': '3'} to subscription: {'endpoint': 'https://web.push.apple.com/QEe9o7lI8a4NZC0Gqfqjl_axS_Ag9Lk7-LfoIScb1kw8zappX4g5AtWVVkW_Hoa3bdc92QVH_Di6ns5ecjfUyBQBcGYhvNPPp1inz82dO4qL9nVYWu1nxgMpxElvQsaIQOFjYEhzjAVYlwz_EVkypG4-MVYpF7cPsFKotzvZZhY', 'keys': {'p256dh': 'BPqRkx3ewFFdT7_rkrhCejOo0hXatC6banQee5f7-W0hh4W7UXlLnGDFqiNjBDDaN5TCNrplD0t4Rj2GwKmQTvQ', 'auth': 'KGnNW9-_gN5S_gi-ROnB8A'}}
+[2025-03-18 14:22:41,338] INFO vendors.utils: Push notification sent successfully.
+[2025-03-18 14:22:41,338] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 69
+[2025-03-18 14:24:20,009] INFO django.server: "GET / HTTP/1.1" 200 5665
+[2025-03-18 14:24:20,276] WARNING django.server: "GET /static/orders/manifest.json HTTP/1.1" 404 2010
+[2025-03-18 14:24:20,283] INFO django.server: "GET /static/orders/css/styles.css HTTP/1.1" 200 2583
+[2025-03-18 14:24:20,283] INFO django.server: "GET /static/orders/js/scripts.js HTTP/1.1" 200 14289
+[2025-03-18 14:24:20,446] INFO django.server: "GET /static/orders/images/logo.png HTTP/1.1" 200 12329
+[2025-03-18 14:24:20,583] INFO django.server: "GET /static/orders/images/image1.jpg HTTP/1.1" 200 163361
+[2025-03-18 14:24:20,619] INFO django.server: "GET /static/orders/images/image2.jpg HTTP/1.1" 200 190249
+[2025-03-18 14:24:21,037] INFO django.server: "GET /service-worker.js HTTP/1.1" 200 2429
+[2025-03-18 14:24:21,194] INFO django.server: "GET /static/orders/images/image3.jpg HTTP/1.1" 200 206171
+[2025-03-18 14:24:21,264] INFO django.server: "GET /static/orders/images/image4.jpg HTTP/1.1" 200 165098
+[2025-03-18 14:24:21,618] INFO django.server: "GET /static/orders/images/image5.jpg HTTP/1.1" 200 240252
+[2025-03-18 14:24:21,846] INFO django.server: "GET /static/orders/images/image6.jpg HTTP/1.1" 200 139100
+[2025-03-18 14:24:22,115] INFO django.server: "GET /static/orders/images/image7.jpg HTTP/1.1" 200 142191
+[2025-03-18 14:24:22,116] INFO django.server: "GET /static/orders/images/image8.jpg HTTP/1.1" 200 170748
+[2025-03-18 14:24:22,117] INFO django.server: "GET /static/orders/files/menu.jpg HTTP/1.1" 200 291842
+[2025-03-18 14:24:29,281] INFO django.server: "GET /check-status/?token_no=2001 HTTP/1.1" 201 253
+[2025-03-18 14:24:29,775] INFO django.server: "POST /vendors/api/save-subscription/ HTTP/1.1" 200 47
+[2025-03-18 14:24:40,844] INFO vendors.utils: Sending push notification with payload: {'title': 'Order Update', 'body': 'Your order 2001 is now ready.', 'token_no': '2001', 'status': 'ready', 'counter_no': '3'} to subscription: {'endpoint': 'https://web.push.apple.com/QJQOXTgOrN_v0scllLZh-1hoZQWZWkux1YazJAp84Sh5T6E8B_iY7R5k7JcadAxoJGEHX_Uzo8De8R-vluJn7XL42VM0ggG_4zOG2tnaa-HIgsTUOsDCx3kZUq0h4ZPJyqCnnZ4AodA5lzZqiZ-xIPCf89y-dxvKZuRPRQ3wyHU', 'keys': {'p256dh': 'BJJ3nC0a232PRUetBOo6kupcLIXDE7bWQ0p6aRnZfOl28rK5Yw54fqCLPBjHUfQkC3EppFIdjZHGvONY7pXi4m4', 'auth': 'TXu2wo12KmDjM5as_-cDTA'}}
+[2025-03-18 14:24:41,782] INFO vendors.utils: Push notification sent successfully.
+[2025-03-18 14:24:41,782] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 69
+[2025-03-18 14:24:42,710] INFO django.server: "GET /static/orders/audio/0112.mp3 HTTP/1.1" 200 29228
+[2025-03-18 14:34:30,474] INFO django.server: "GET /admin/vendors/order/ HTTP/1.1" 200 15873
+[2025-03-18 14:34:30,521] INFO django.server: "GET /static/admin/css/base.css HTTP/1.1" 200 22092
+[2025-03-18 14:34:30,527] INFO django.server: "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+[2025-03-18 14:34:30,530] INFO django.server: "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+[2025-03-18 14:34:30,530] INFO django.server: "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+[2025-03-18 14:34:30,532] INFO django.server: "GET /static/admin/css/changelists.css HTTP/1.1" 200 6878
+[2025-03-18 14:34:30,532] INFO django.server: "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2804
+[2025-03-18 14:34:30,535] INFO django.server: "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+[2025-03-18 14:34:30,537] INFO django.server: "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+[2025-03-18 14:34:30,540] INFO django.server: "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+[2025-03-18 14:34:30,541] INFO django.server: "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+[2025-03-18 14:34:30,544] INFO django.server: "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+[2025-03-18 14:34:30,545] INFO django.server: "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+[2025-03-18 14:34:30,546] INFO django.server: "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9097
+[2025-03-18 14:34:30,547] INFO django.server: "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+[2025-03-18 14:34:30,548] INFO django.server: "GET /static/admin/css/responsive.css HTTP/1.1" 200 17972
+[2025-03-18 14:34:30,549] INFO django.server: "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+[2025-03-18 14:34:30,552] INFO django.server: "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+[2025-03-18 14:34:30,556] INFO django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-03-18 14:34:30,613] INFO django.server: "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[2025-03-18 14:34:30,615] INFO django.server: "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[2025-03-18 14:34:30,617] INFO django.server: "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+[2025-03-18 14:34:31,408] INFO django.server: "GET /service-worker.js HTTP/1.1" 200 2429
+[2025-03-18 14:37:22,962] INFO django.server: "GET /check-status/?token_no=2002 HTTP/1.1" 201 253
+[2025-03-18 14:37:23,475] INFO django.server: "POST /vendors/api/save-subscription/ HTTP/1.1" 200 47
+[2025-03-18 14:38:08,884] INFO vendors.utils: Sending push notification with payload: {'title': 'Order Update', 'body': 'Your order 2002 is now ready.', 'token_no': '2002', 'status': 'ready', 'counter_no': '3'} to subscription: {'endpoint': 'https://web.push.apple.com/QJQF_rCLfgKpJOLLT128DKzhS907f7EE9WyTXEGWYZJzHeYSZC-rmvdQYRG8px2LbKUcM1nKWFMwZ6J4hKCeLy2XVqRdH6LIVFJbUf6vfkwewt_zoGLoYqg72dsewJCBeIRVxLT7UihzMf5OAs0QG1c3eXf5-ArH5SeuHr5thE4', 'keys': {'p256dh': 'BN6YByqcuVf1sFI8MJySTkp73XLQ7Q5GcMfZN5vb6zpUWqTiQeJLTORDYI87GNDp_jax8ll07VWcIDaLI8MIoRE', 'auth': 'cbObaOmtuphqi6vCsp8U3g'}}
+[2025-03-18 14:38:09,803] INFO vendors.utils: Push notification sent successfully.
+[2025-03-18 14:38:09,803] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 69
+[2025-03-18 14:38:10,784] INFO django.server: "GET /static/orders/audio/0112.mp3 HTTP/1.1" 200 29228
+[2025-03-18 14:38:26,355] INFO django.server: "GET /check-status/?token_no=2003 HTTP/1.1" 201 253
+[2025-03-18 14:38:26,670] INFO django.server: "POST /vendors/api/save-subscription/ HTTP/1.1" 200 47
+[2025-03-18 14:38:34,290] INFO vendors.utils: Sending push notification with payload: {'title': 'Order Update', 'body': 'Your order 2003 is now ready.', 'token_no': '2003', 'status': 'ready', 'counter_no': '3'} to subscription: {'endpoint': 'https://web.push.apple.com/QFMad2dynd_fCbZdzP0VnkCQaqmSwDeoucLnMwNU31txEabAgNAn2qE7Pm-HEpc11Ld1AX9QMhjE5Py9IleTazn-v_W6aTfq2jivW7hhU_ZiXoH-ShY8_gX0A-WJCM9WWPlcCe9xQgXlHTLtv5xNjHgJQfur1947egkjg2L_tHQ', 'keys': {'p256dh': 'BDvj4DORvjnsYSKP16XkAnrJi8kdPIBw9T6NSi4-_rdh7bQ7xyBTxic0xetVspaSIHJ1fiuxmxQsoCkCdAA7jYM', 'auth': 'ZvQ2i-DoqR-3tEUJMX7Lwg'}}
+[2025-03-18 14:38:35,093] INFO vendors.utils: Push notification sent successfully.
+[2025-03-18 14:38:35,093] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 69
+[2025-03-18 14:55:31,578] INFO django.utils.autoreload: /Users/iosdev/Downloads/SANJU_MACOS/caller_on/vendors/views.py changed, reloading.
+[2025-03-18 14:55:32,159] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2025-03-18 14:56:00,595] INFO django.server: "GET /admin/vendors/order/ HTTP/1.1" 302 0
+[2025-03-18 14:56:00,625] INFO django.server: "GET /admin/login/?next=/admin/vendors/order/ HTTP/1.1" 200 4192
+[2025-03-18 14:56:00,734] INFO django.server: "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2804
+[2025-03-18 14:56:00,734] INFO django.server: "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+[2025-03-18 14:56:00,736] INFO django.server: "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+[2025-03-18 14:56:00,738] INFO django.server: "GET /static/admin/css/base.css HTTP/1.1" 200 22092
+[2025-03-18 14:56:00,739] INFO django.server: "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+[2025-03-18 14:56:00,739] INFO django.server: "GET /static/admin/css/login.css HTTP/1.1" 200 951
+[2025-03-18 14:56:00,740] INFO django.server: "GET /static/admin/css/responsive.css HTTP/1.1" 200 17972
+[2025-03-18 14:56:06,092] WARNING django.request: Method Not Allowed: /vendors/api/update-order/
+[2025-03-18 14:56:06,092] WARNING django.server: "GET /vendors/api/update-order/ HTTP/1.1" 405 6047
+[2025-03-18 14:56:06,233] INFO django.server: "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 200 59
+[2025-03-18 14:56:06,234] INFO django.server: "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+[2025-03-18 14:56:06,235] INFO django.server: "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3426
+[2025-03-18 14:56:06,236] INFO django.server: "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+[2025-03-18 14:56:06,237] INFO django.server: "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+[2025-03-18 14:56:06,238] INFO django.server: "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1793
+[2025-03-18 14:56:06,239] INFO django.server: "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3796
+[2025-03-18 14:56:06,239] INFO django.server: "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+[2025-03-18 14:56:06,240] INFO django.server: "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 200 87533
+[2025-03-18 14:56:06,240] INFO django.server: "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+[2025-03-18 14:56:06,241] INFO django.server: "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+[2025-03-18 14:56:06,468] INFO django.server: "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+[2025-03-18 14:56:07,076] INFO django.server: "GET /service-worker.js HTTP/1.1" 200 2429
+[2025-03-18 14:56:18,018] WARNING django.request: Method Not Allowed: /vendors/api/update-order/
+[2025-03-18 14:56:18,018] WARNING django.server: "GET /vendors/api/update-order/ HTTP/1.1" 405 6047
+[2025-03-18 14:56:19,006] INFO django.server: "GET /service-worker.js HTTP/1.1" 200 2429
+[2025-03-18 14:57:44,669] WARNING django.request: Method Not Allowed: /vendors/api/update-order/
+[2025-03-18 14:57:44,670] WARNING django.server: "GET /vendors/api/update-order/ HTTP/1.1" 405 6047
+[2025-03-18 14:57:45,667] INFO django.server: "GET /service-worker.js HTTP/1.1" 200 2429
+[2025-03-18 14:59:23,247] WARNING django.request: Method Not Allowed: /vendors/api/update-order/
+[2025-03-18 14:59:23,248] WARNING django.server: "GET /vendors/api/update-order/ HTTP/1.1" 405 6047
+[2025-03-18 14:59:24,165] WARNING django.request: Method Not Allowed: /vendors/api/update-order/
+[2025-03-18 14:59:24,166] WARNING django.server: "GET /vendors/api/update-order/ HTTP/1.1" 405 6047
+[2025-03-18 14:59:24,685] WARNING django.request: Method Not Allowed: /vendors/api/update-order/
+[2025-03-18 14:59:24,685] WARNING django.server: "GET /vendors/api/update-order/ HTTP/1.1" 405 6047
+[2025-03-18 15:01:33,323] INFO django.utils.autoreload: /Users/iosdev/Downloads/SANJU_MACOS/caller_on/vendors/views.py changed, reloading.
+[2025-03-18 15:01:33,959] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2025-03-18 15:02:30,552] INFO django.utils.autoreload: /Users/iosdev/Downloads/SANJU_MACOS/caller_on/caller_on/settings.py changed, reloading.
+[2025-03-18 15:02:31,182] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2025-03-18 15:08:59,468] WARNING django.request: Bad Request: /vendors/proxy/api/update-order/
+[2025-03-18 15:08:59,469] WARNING django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 400 2800
+[2025-03-18 15:13:07,884] INFO django.server: "GET / HTTP/1.1" 200 5665
+[2025-03-18 15:13:08,074] WARNING django.server: "GET /static/orders/manifest.json HTTP/1.1" 404 2010
+[2025-03-18 15:13:08,124] INFO django.server: "GET /static/orders/css/styles.css HTTP/1.1" 200 2583
+[2025-03-18 15:13:08,124] INFO django.server: "GET /static/orders/js/scripts.js HTTP/1.1" 200 14289
+[2025-03-18 15:13:08,273] INFO django.server: "GET /static/orders/images/logo.png HTTP/1.1" 200 12329
+[2025-03-18 15:13:08,275] INFO django.server: "GET /static/orders/images/image1.jpg HTTP/1.1" 200 163361
+[2025-03-18 15:13:08,481] INFO django.server: "GET /service-worker.js HTTP/1.1" 200 2429
+[2025-03-18 15:13:08,484] INFO django.server: "GET /static/orders/images/image2.jpg HTTP/1.1" 200 190249
+[2025-03-18 15:13:08,612] INFO django.server: "GET /static/orders/images/image3.jpg HTTP/1.1" 200 206171
+[2025-03-18 15:13:08,724] INFO django.server: "GET /static/orders/images/image6.jpg HTTP/1.1" 200 139100
+[2025-03-18 15:13:08,725] INFO django.server: "GET /static/orders/images/image8.jpg HTTP/1.1" 200 170748
+[2025-03-18 15:13:08,725] INFO django.server: "GET /static/orders/images/image7.jpg HTTP/1.1" 200 142191
+[2025-03-18 15:13:08,726] INFO django.server: "GET /static/orders/images/image4.jpg HTTP/1.1" 200 165098
+[2025-03-18 15:13:08,726] INFO django.server: "GET /static/orders/images/image5.jpg HTTP/1.1" 200 240252
+[2025-03-18 15:13:08,727] INFO django.server: "GET /static/orders/files/menu.jpg HTTP/1.1" 200 291842
+[2025-03-18 15:13:17,226] WARNING django.request: Not Found: /favicon.ico
+[2025-03-18 15:13:17,227] WARNING django.server: "GET /favicon.ico HTTP/1.1" 404 3254
+[2025-03-18 15:13:17,230] WARNING django.request: Not Found: /apple-touch-icon.png
+[2025-03-18 15:13:17,234] WARNING django.request: Not Found: /apple-touch-icon-precomposed.png
+[2025-03-18 15:13:17,235] WARNING django.server: "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 3317
+[2025-03-18 15:13:17,235] WARNING django.server: "GET /apple-touch-icon.png HTTP/1.1" 404 3281
+[2025-03-18 15:13:17,235] INFO django.server: "GET /static/orders/images/logo.png HTTP/1.1" 200 12329
+[2025-03-18 15:13:20,613] INFO django.server: "GET /static/orders/images/logo.png HTTP/1.1" 200 12329
+[2025-03-18 15:13:30,345] INFO django.server: "GET / HTTP/1.1" 200 5665
+[2025-03-18 15:13:30,687] WARNING django.server: "GET /static/orders/manifest.json HTTP/1.1" 404 2010
+[2025-03-18 15:13:30,697] INFO django.server: "GET /static/orders/css/styles.css HTTP/1.1" 200 2583
+[2025-03-18 15:13:30,697] INFO django.server: "GET /static/orders/js/scripts.js HTTP/1.1" 200 14289
+[2025-03-18 15:13:30,923] INFO django.server: "GET /static/orders/images/logo.png HTTP/1.1" 200 12329
+[2025-03-18 15:13:30,926] INFO django.server: "GET /static/orders/images/image1.jpg HTTP/1.1" 200 163361
+[2025-03-18 15:13:31,218] INFO django.server: "GET /service-worker.js HTTP/1.1" 200 2429
+[2025-03-18 15:13:31,221] INFO django.server: "GET /static/orders/images/image2.jpg HTTP/1.1" 200 190249
+[2025-03-18 15:13:31,446] INFO django.server: "GET /static/orders/images/image3.jpg HTTP/1.1" 200 206171
+[2025-03-18 15:13:31,760] INFO django.server: "GET /static/orders/images/image4.jpg HTTP/1.1" 200 165098
+[2025-03-18 15:13:31,978] INFO django.server: "GET /static/orders/images/image7.jpg HTTP/1.1" 200 142191
+[2025-03-18 15:13:31,979] INFO django.server: "GET /static/orders/files/menu.jpg HTTP/1.1" 200 291842
+[2025-03-18 15:13:32,013] INFO django.server: "GET /static/orders/images/image5.jpg HTTP/1.1" 200 240252
+[2025-03-18 15:13:32,014] INFO django.server: "GET /static/orders/images/image8.jpg HTTP/1.1" 200 170748
+[2025-03-18 15:13:32,015] INFO django.server: "GET /static/orders/images/image6.jpg HTTP/1.1" 200 139100
+[2025-03-18 15:13:46,448] INFO django.server: "GET /check-status/?token_no=2004 HTTP/1.1" 201 253
+[2025-03-18 15:13:46,835] INFO django.server: "POST /vendors/api/save-subscription/ HTTP/1.1" 200 47
+[2025-03-18 15:13:51,064] INFO vendors.utils: Sending push notification with payload: {'title': 'Order Update', 'body': 'Your order 2004 is now ready.', 'token_no': '2004', 'status': 'ready', 'counter_no': '3'} to subscription: {'endpoint': 'https://web.push.apple.com/QMkDC0bpcYsnHzOG76iF3XfL1jahw1IvQKXCjeoegYB_AD1drHbR5GCYM5wQLeXuZh3bCnHxcF-ifs-nC-TAizY8_xmtRxqEPhbmFkcXIH1X8Gq_Vo-SHtoUOUZjBk4cDgfsTV_Ry4YnkIdLhnXRe0f4XYAJIThxC7WqZmsg6XY', 'keys': {'p256dh': 'BPcIPWns0iIHFfM_m6_FTa97nVNFub9tzEWAI0oMzv9O4AjncrqE16HDRxHO9l_IndyQrmElh0N5PIxi87pIkqM', 'auth': 'm_h1vUg-nZJNdUioeugUDw'}}
+[2025-03-18 15:13:51,987] INFO vendors.utils: Push notification sent successfully.
+[2025-03-18 15:13:51,987] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 69
+[2025-03-18 15:13:57,074] INFO django.server: "GET /static/orders/audio/0112.mp3 HTTP/1.1" 200 29228
+[2025-03-18 15:14:11,535] INFO vendors.utils: Sending push notification with payload: {'title': 'Order Update', 'body': 'Your order 2004 is now ready.', 'token_no': '2004', 'status': 'ready', 'counter_no': '3'} to subscription: {'endpoint': 'https://web.push.apple.com/QMkDC0bpcYsnHzOG76iF3XfL1jahw1IvQKXCjeoegYB_AD1drHbR5GCYM5wQLeXuZh3bCnHxcF-ifs-nC-TAizY8_xmtRxqEPhbmFkcXIH1X8Gq_Vo-SHtoUOUZjBk4cDgfsTV_Ry4YnkIdLhnXRe0f4XYAJIThxC7WqZmsg6XY', 'keys': {'p256dh': 'BPcIPWns0iIHFfM_m6_FTa97nVNFub9tzEWAI0oMzv9O4AjncrqE16HDRxHO9l_IndyQrmElh0N5PIxi87pIkqM', 'auth': 'm_h1vUg-nZJNdUioeugUDw'}}
+[2025-03-18 15:14:12,305] INFO vendors.utils: Push notification sent successfully.
+[2025-03-18 15:14:12,306] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 69
+[2025-03-18 15:14:23,499] INFO vendors.utils: Sending push notification with payload: {'title': 'Order Update', 'body': 'Your order 2004 is now ready.', 'token_no': '2004', 'status': 'ready', 'counter_no': '3'} to subscription: {'endpoint': 'https://web.push.apple.com/QMkDC0bpcYsnHzOG76iF3XfL1jahw1IvQKXCjeoegYB_AD1drHbR5GCYM5wQLeXuZh3bCnHxcF-ifs-nC-TAizY8_xmtRxqEPhbmFkcXIH1X8Gq_Vo-SHtoUOUZjBk4cDgfsTV_Ry4YnkIdLhnXRe0f4XYAJIThxC7WqZmsg6XY', 'keys': {'p256dh': 'BPcIPWns0iIHFfM_m6_FTa97nVNFub9tzEWAI0oMzv9O4AjncrqE16HDRxHO9l_IndyQrmElh0N5PIxi87pIkqM', 'auth': 'm_h1vUg-nZJNdUioeugUDw'}}
+[2025-03-18 15:14:24,266] INFO vendors.utils: Push notification sent successfully.
+[2025-03-18 15:14:24,266] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 69
+[2025-03-18 15:15:07,911] WARNING django.request: Not Found: /vendors/proxy/api/update-order/
+[2025-03-18 15:15:07,911] WARNING django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 404 2456
+[2025-03-18 15:16:49,051] INFO django.utils.autoreload: /Users/iosdev/Downloads/SANJU_MACOS/caller_on/vendors/views.py changed, reloading.
+[2025-03-18 15:16:49,735] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2025-03-18 15:24:41,266] INFO django.utils.autoreload: /Users/iosdev/Downloads/SANJU_MACOS/caller_on/vendors/views.py changed, reloading.
+[2025-03-18 15:24:41,872] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2025-03-18 15:24:48,747] ERROR django.security.DisallowedHost: Invalid HTTP_HOST header: 'f0d7-202-88-237-210.ngrok-free.app'. You may need to add 'f0d7-202-88-237-210.ngrok-free.app' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'f0d7-202-88-237-210.ngrok-free.app'. You may need to add 'f0d7-202-88-237-210.ngrok-free.app' to ALLOWED_HOSTS.
+[2025-03-18 15:24:48,772] WARNING django.request: Bad Request: /vendors/api/update-order/
+[2025-03-18 15:24:48,773] WARNING django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 400 68181
+[2025-03-18 15:24:48,966] WARNING django.request: Bad Request: /vendors/proxy/api/update-order/
+[2025-03-18 15:24:48,967] WARNING django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 400 68181
+[2025-03-18 15:25:59,868] ERROR django.security.DisallowedHost: Invalid HTTP_HOST header: 'f0d7-202-88-237-210.ngrok-free.app'. You may need to add 'f0d7-202-88-237-210.ngrok-free.app' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'f0d7-202-88-237-210.ngrok-free.app'. You may need to add 'f0d7-202-88-237-210.ngrok-free.app' to ALLOWED_HOSTS.
+[2025-03-18 15:25:59,885] WARNING django.request: Bad Request: /vendors/api/update-order/
+[2025-03-18 15:25:59,885] WARNING django.server: "GET /vendors/api/update-order/ HTTP/1.1" 400 69627
+[2025-03-18 15:26:46,129] ERROR django.security.DisallowedHost: Invalid HTTP_HOST header: 'f0d7-202-88-237-210.ngrok-free.app'. You may need to add 'f0d7-202-88-237-210.ngrok-free.app' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'f0d7-202-88-237-210.ngrok-free.app'. You may need to add 'f0d7-202-88-237-210.ngrok-free.app' to ALLOWED_HOSTS.
+[2025-03-18 15:26:46,157] WARNING django.request: Bad Request: /
+[2025-03-18 15:26:46,157] WARNING django.server: "GET / HTTP/1.1" 400 69206
+[2025-03-18 15:30:33,875] INFO django.utils.autoreload: /Users/iosdev/Downloads/SANJU_MACOS/caller_on/caller_on/settings.py changed, reloading.
+[2025-03-18 15:30:34,463] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2025-03-18 15:30:43,255] WARNING django.request: Method Not Allowed: /vendors/api/update-order/
+[2025-03-18 15:30:43,255] WARNING django.server: "GET /vendors/api/update-order/ HTTP/1.1" 405 6047
+[2025-03-18 15:30:43,345] INFO django.server: "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3426
+[2025-03-18 15:30:43,346] INFO django.server: "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+[2025-03-18 15:30:43,346] INFO django.server: "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+[2025-03-18 15:30:43,347] INFO django.server: "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+[2025-03-18 15:30:43,378] INFO django.server: "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1793
+[2025-03-18 15:30:43,378] INFO django.server: "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+[2025-03-18 15:30:43,378] INFO django.server: "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3796
+[2025-03-18 15:30:43,381] INFO django.server: "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 200 59
+[2025-03-18 15:30:43,382] INFO django.server: "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 200 87533
+[2025-03-18 15:30:43,383] INFO django.server: "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+[2025-03-18 15:30:43,383] INFO django.server: "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+[2025-03-18 15:30:43,560] INFO django.server: "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+[2025-03-18 15:30:56,024] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-18 15:30:56,080] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-18 15:41:06,865] WARNING django.request: Not Found: /vendors/proxy/api/update-order/
+[2025-03-18 15:41:06,866] WARNING django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 404 2456
+[2025-03-18 15:41:12,885] WARNING django.request: Not Found: /vendors/proxy/api/update-order/
+[2025-03-18 15:41:12,885] WARNING django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 404 2456
+[2025-03-18 15:45:42,295] WARNING django.request: Not Found: /vendors/proxy/api/update-order/
+[2025-03-18 15:45:42,296] WARNING django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 404 2456
+[2025-03-18 15:46:19,444] INFO django.server: code 400, message Bad request version ('À\x13À')
+[2025-03-18 15:46:19,444] ERROR django.server: You're accessing the development server over HTTPS, but it only supports HTTP.
+[2025-03-18 15:46:25,934] WARNING django.request: Not Found: /vendors/proxy/api/update-order/
+[2025-03-18 15:46:25,934] WARNING django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 404 2456
+[2025-03-18 15:46:44,180] INFO vendors.utils: Sending push notification with payload: {'title': 'Order Update', 'body': 'Your order 2004 is now ready.', 'token_no': '2004', 'status': 'ready', 'counter_no': '3'} to subscription: {'endpoint': 'https://web.push.apple.com/QMkDC0bpcYsnHzOG76iF3XfL1jahw1IvQKXCjeoegYB_AD1drHbR5GCYM5wQLeXuZh3bCnHxcF-ifs-nC-TAizY8_xmtRxqEPhbmFkcXIH1X8Gq_Vo-SHtoUOUZjBk4cDgfsTV_Ry4YnkIdLhnXRe0f4XYAJIThxC7WqZmsg6XY', 'keys': {'p256dh': 'BPcIPWns0iIHFfM_m6_FTa97nVNFub9tzEWAI0oMzv9O4AjncrqE16HDRxHO9l_IndyQrmElh0N5PIxi87pIkqM', 'auth': 'm_h1vUg-nZJNdUioeugUDw'}}
+[2025-03-18 15:46:45,099] INFO vendors.utils: Push notification sent successfully.
+[2025-03-18 15:46:45,099] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 69
+[2025-03-18 15:47:33,708] WARNING django.request: Not Found: /vendors/proxy/api/update-order/
+[2025-03-18 15:47:33,708] WARNING django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 404 2456
+[2025-03-18 15:47:38,567] WARNING django.request: Not Found: /vendors/proxy/api/update-order/
+[2025-03-18 15:47:38,567] WARNING django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 404 2456
+[2025-03-18 15:48:13,580] WARNING django.request: Not Found: /vendors/proxy/api/update-order/
+[2025-03-18 15:48:13,581] WARNING django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 404 2456
+[2025-03-18 15:48:27,541] INFO vendors.utils: Sending push notification with payload: {'title': 'Order Update', 'body': 'Your order 2004 is now ready.', 'token_no': '2004', 'status': 'ready', 'counter_no': '3'} to subscription: {'endpoint': 'https://web.push.apple.com/QMkDC0bpcYsnHzOG76iF3XfL1jahw1IvQKXCjeoegYB_AD1drHbR5GCYM5wQLeXuZh3bCnHxcF-ifs-nC-TAizY8_xmtRxqEPhbmFkcXIH1X8Gq_Vo-SHtoUOUZjBk4cDgfsTV_Ry4YnkIdLhnXRe0f4XYAJIThxC7WqZmsg6XY', 'keys': {'p256dh': 'BPcIPWns0iIHFfM_m6_FTa97nVNFub9tzEWAI0oMzv9O4AjncrqE16HDRxHO9l_IndyQrmElh0N5PIxi87pIkqM', 'auth': 'm_h1vUg-nZJNdUioeugUDw'}}
+[2025-03-18 15:48:28,500] INFO vendors.utils: Push notification sent successfully.
+[2025-03-18 15:48:28,501] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 69
+[2025-03-18 15:48:34,095] INFO vendors.utils: Sending push notification with payload: {'title': 'Order Update', 'body': 'Your order 2004 is now ready.', 'token_no': '2004', 'status': 'ready', 'counter_no': '3'} to subscription: {'endpoint': 'https://web.push.apple.com/QMkDC0bpcYsnHzOG76iF3XfL1jahw1IvQKXCjeoegYB_AD1drHbR5GCYM5wQLeXuZh3bCnHxcF-ifs-nC-TAizY8_xmtRxqEPhbmFkcXIH1X8Gq_Vo-SHtoUOUZjBk4cDgfsTV_Ry4YnkIdLhnXRe0f4XYAJIThxC7WqZmsg6XY', 'keys': {'p256dh': 'BPcIPWns0iIHFfM_m6_FTa97nVNFub9tzEWAI0oMzv9O4AjncrqE16HDRxHO9l_IndyQrmElh0N5PIxi87pIkqM', 'auth': 'm_h1vUg-nZJNdUioeugUDw'}}
+[2025-03-18 15:48:34,955] INFO vendors.utils: Push notification sent successfully.
+[2025-03-18 15:48:34,955] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 69
+[2025-03-18 15:48:54,533] WARNING django.request: Not Found: /vendors/proxy/api/update-order/
+[2025-03-18 15:48:54,533] WARNING django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 404 2456
+[2025-03-18 15:50:20,012] INFO django.utils.autoreload: /Users/iosdev/Downloads/SANJU_MACOS/caller_on/vendors/views.py changed, reloading.
+[2025-03-18 15:50:20,680] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2025-03-18 15:50:25,013] ERROR django.request: Internal Server Error: /vendors/proxy/api/update-order/
+[2025-03-18 15:50:25,014] ERROR django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 500 374
+[2025-03-18 15:51:24,246] ERROR django.request: Internal Server Error: /vendors/proxy/api/update-order/
+[2025-03-18 15:51:24,247] ERROR django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 500 374
+[2025-03-18 15:51:58,427] INFO django.utils.autoreload: /Users/iosdev/Downloads/SANJU_MACOS/caller_on/vendors/views.py changed, reloading.
+[2025-03-18 15:51:58,898] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2025-03-18 15:52:02,225] INFO vendors.utils: Sending push notification with payload: {'title': 'Order Update', 'body': 'Your order 2004 is now ready.', 'token_no': '2004', 'status': 'ready', 'counter_no': '3'} to subscription: {'endpoint': 'https://web.push.apple.com/QMkDC0bpcYsnHzOG76iF3XfL1jahw1IvQKXCjeoegYB_AD1drHbR5GCYM5wQLeXuZh3bCnHxcF-ifs-nC-TAizY8_xmtRxqEPhbmFkcXIH1X8Gq_Vo-SHtoUOUZjBk4cDgfsTV_Ry4YnkIdLhnXRe0f4XYAJIThxC7WqZmsg6XY', 'keys': {'p256dh': 'BPcIPWns0iIHFfM_m6_FTa97nVNFub9tzEWAI0oMzv9O4AjncrqE16HDRxHO9l_IndyQrmElh0N5PIxi87pIkqM', 'auth': 'm_h1vUg-nZJNdUioeugUDw'}}
+[2025-03-18 15:52:03,140] INFO vendors.utils: Push notification sent successfully.
+[2025-03-18 15:52:03,140] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 69
+[2025-03-18 15:52:03,182] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 69
+[2025-03-18 15:52:32,191] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-18 15:52:32,229] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-18 15:53:54,891] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-18 15:53:54,950] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-18 15:54:14,821] INFO django.server: "GET / HTTP/1.1" 200 5665
+[2025-03-18 15:54:15,273] WARNING django.server: "GET /static/orders/manifest.json HTTP/1.1" 404 2010
+[2025-03-18 15:54:15,285] INFO django.server: "GET /static/orders/css/styles.css HTTP/1.1" 200 2583
+[2025-03-18 15:54:15,286] INFO django.server: "GET /static/orders/js/scripts.js HTTP/1.1" 200 14289
+[2025-03-18 15:54:15,638] INFO django.server: "GET /static/orders/images/logo.png HTTP/1.1" 200 12329
+[2025-03-18 15:54:15,640] INFO django.server: "GET /static/orders/images/image1.jpg HTTP/1.1" 200 163361
+[2025-03-18 15:54:15,850] INFO django.server: "GET /static/orders/images/image2.jpg HTTP/1.1" 200 190249
+[2025-03-18 15:54:15,885] INFO django.server: "GET /service-worker.js HTTP/1.1" 200 2429
+[2025-03-18 15:54:16,122] INFO django.server: "GET /static/orders/images/image3.jpg HTTP/1.1" 200 206171
+[2025-03-18 15:54:16,402] INFO django.server: "GET /static/orders/images/image4.jpg HTTP/1.1" 200 165098
+[2025-03-18 15:54:16,416] INFO django.server: "GET /static/orders/images/image6.jpg HTTP/1.1" 200 139100
+[2025-03-18 15:54:16,418] INFO django.server: "GET /static/orders/images/image7.jpg HTTP/1.1" 200 142191
+[2025-03-18 15:54:16,418] INFO django.server: "GET /static/orders/images/image5.jpg HTTP/1.1" 200 240252
+[2025-03-18 15:54:16,419] INFO django.server: "GET /static/orders/images/image8.jpg HTTP/1.1" 200 170748
+[2025-03-18 15:54:16,419] INFO django.server: "GET /static/orders/files/menu.jpg HTTP/1.1" 200 291842
+[2025-03-18 15:54:19,169] WARNING django.request: Not Found: /favicon.ico
+[2025-03-18 15:54:19,174] WARNING django.request: Not Found: /apple-touch-icon-precomposed.png
+[2025-03-18 15:54:19,177] WARNING django.request: Not Found: /apple-touch-icon.png
+[2025-03-18 15:54:19,177] WARNING django.server: "GET /favicon.ico HTTP/1.1" 404 3254
+[2025-03-18 15:54:19,178] WARNING django.server: "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 3317
+[2025-03-18 15:54:19,178] WARNING django.server: "GET /apple-touch-icon.png HTTP/1.1" 404 3281
+[2025-03-18 15:54:19,196] INFO django.server: "GET /static/orders/images/logo.png HTTP/1.1" 200 12329
+[2025-03-18 15:54:27,130] INFO django.server: "GET /static/orders/images/logo.png HTTP/1.1" 304 0
+[2025-03-18 15:54:31,592] INFO django.server: "GET / HTTP/1.1" 200 5665
+[2025-03-18 15:54:31,840] WARNING django.server: "GET /static/orders/manifest.json HTTP/1.1" 404 2010
+[2025-03-18 15:54:31,841] INFO django.server: "GET /static/orders/css/styles.css HTTP/1.1" 200 2583
+[2025-03-18 15:54:31,846] INFO django.server: "GET /static/orders/js/scripts.js HTTP/1.1" 200 14289
+[2025-03-18 15:54:32,001] INFO django.server: "GET /static/orders/images/logo.png HTTP/1.1" 200 12329
+[2025-03-18 15:54:32,090] INFO django.server: "GET /static/orders/images/image1.jpg HTTP/1.1" 200 163361
+[2025-03-18 15:54:32,163] INFO django.server: "GET /static/orders/images/image2.jpg HTTP/1.1" 200 190249
+[2025-03-18 15:54:32,406] INFO django.server: "GET /static/orders/images/image3.jpg HTTP/1.1" 200 206171
+[2025-03-18 15:54:32,591] INFO django.server: "GET /static/orders/images/image4.jpg HTTP/1.1" 200 165098
+[2025-03-18 15:54:32,653] INFO django.server: "GET /static/orders/images/image5.jpg HTTP/1.1" 200 240252
+[2025-03-18 15:54:32,852] INFO django.server: "GET /static/orders/images/image6.jpg HTTP/1.1" 200 139100
+[2025-03-18 15:54:32,853] INFO django.server: "GET /static/orders/images/image7.jpg HTTP/1.1" 200 142191
+[2025-03-18 15:54:32,861] INFO django.server: "GET /static/orders/images/image8.jpg HTTP/1.1" 200 170748
+[2025-03-18 15:54:32,862] INFO django.server: "GET /static/orders/files/menu.jpg HTTP/1.1" 200 291842
+[2025-03-18 15:54:32,863] INFO django.server: "GET /service-worker.js HTTP/1.1" 200 2429
+[2025-03-18 15:54:43,703] INFO django.server: "GET /check-status/?token_no=127 HTTP/1.1" 201 252
+[2025-03-18 15:54:44,204] INFO django.server: "POST /vendors/api/save-subscription/ HTTP/1.1" 200 47
+[2025-03-18 15:54:53,881] INFO vendors.utils: Sending push notification with payload: {'title': 'Order Update', 'body': 'Your order 127 is now ready.', 'token_no': 127, 'status': 'ready', 'counter_no': 2} to subscription: {'endpoint': 'https://web.push.apple.com/QHc3natKSksPJ7ZQwTUOg9tqnKcLzHbfze0YHl6gSmy25HP18zX2k3Q4Yj3r3DsVCc3fF9eDTPhq65VVHtr8Up571l3FeWvy2k36exZ-hBQolalI5U81HYP8bxgYIjTLW_iVyFeFtm0tLWeviOgM4KpibN6uXybwNTWwu-LpBt0', 'keys': {'p256dh': 'BDRedFYzmWTOH6wMDq5Ps9KtmmbCr5iryFPzGSXnGWXSrDK20ibWBK7jSu4_KhumEL9MafSx-lodJ-35Rg74OQ8', 'auth': '2u56Zr0aE7t7pe6p_bHwNg'}}
+[2025-03-18 15:54:54,771] INFO vendors.utils: Push notification sent successfully.
+[2025-03-18 15:54:54,771] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-18 15:54:54,806] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-18 15:54:55,827] INFO django.server: "GET /static/orders/audio/0112.mp3 HTTP/1.1" 200 29228
+[2025-03-18 15:55:19,908] INFO vendors.utils: Sending push notification with payload: {'title': 'Order Update', 'body': 'Your order 127 is now ready.', 'token_no': 127, 'status': 'ready', 'counter_no': 2} to subscription: {'endpoint': 'https://web.push.apple.com/QHc3natKSksPJ7ZQwTUOg9tqnKcLzHbfze0YHl6gSmy25HP18zX2k3Q4Yj3r3DsVCc3fF9eDTPhq65VVHtr8Up571l3FeWvy2k36exZ-hBQolalI5U81HYP8bxgYIjTLW_iVyFeFtm0tLWeviOgM4KpibN6uXybwNTWwu-LpBt0', 'keys': {'p256dh': 'BDRedFYzmWTOH6wMDq5Ps9KtmmbCr5iryFPzGSXnGWXSrDK20ibWBK7jSu4_KhumEL9MafSx-lodJ-35Rg74OQ8', 'auth': '2u56Zr0aE7t7pe6p_bHwNg'}}
+[2025-03-18 15:55:20,696] INFO vendors.utils: Push notification sent successfully.
+[2025-03-18 15:55:20,697] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-18 15:55:20,758] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-18 15:56:07,253] INFO django.server: "GET /service-worker.js HTTP/1.1" 200 2429
+[2025-03-18 15:56:14,567] INFO django.server: "GET /admin/vendors/device/ HTTP/1.1" 200 12551
+[2025-03-18 15:56:14,584] INFO django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-03-18 15:56:15,505] INFO django.server: "GET /service-worker.js HTTP/1.1" 200 2429
+[2025-03-18 15:56:15,895] INFO django.server: "GET /admin/vendors/order/ HTTP/1.1" 200 19158
+[2025-03-18 15:56:15,905] INFO django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-03-18 15:56:16,876] INFO django.server: "GET /service-worker.js HTTP/1.1" 200 2429
+[2025-03-18 15:56:21,978] INFO django.server: "POST /admin/vendors/order/ HTTP/1.1" 200 11718
+[2025-03-18 15:56:22,963] INFO django.server: "GET /service-worker.js HTTP/1.1" 200 2429
+[2025-03-18 15:56:24,267] INFO django.server: "POST /admin/vendors/order/ HTTP/1.1" 302 0
+[2025-03-18 15:56:24,284] INFO django.server: "GET /admin/vendors/order/ HTTP/1.1" 200 10279
+[2025-03-18 15:56:24,295] INFO django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-03-18 15:56:25,252] INFO django.server: "GET /service-worker.js HTTP/1.1" 200 2429
+[2025-03-18 15:56:26,112] INFO django.server: "GET /admin/vendors/pushsubscription/ HTTP/1.1" 200 14630
+[2025-03-18 15:56:26,122] INFO django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-03-18 15:56:27,099] INFO django.server: "GET /service-worker.js HTTP/1.1" 200 2429
+[2025-03-18 15:56:32,649] INFO django.server: "POST /admin/vendors/pushsubscription/ HTTP/1.1" 200 9932
+[2025-03-18 15:56:33,640] INFO django.server: "GET /service-worker.js HTTP/1.1" 200 2429
+[2025-03-18 15:56:34,188] INFO django.server: "POST /admin/vendors/pushsubscription/ HTTP/1.1" 302 0
+[2025-03-18 15:56:34,204] INFO django.server: "GET /admin/vendors/pushsubscription/ HTTP/1.1" 200 10248
+[2025-03-18 15:56:34,215] INFO django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-03-18 15:56:35,178] INFO django.server: "GET /service-worker.js HTTP/1.1" 200 2429
+[2025-03-18 15:59:41,066] INFO django.server: "GET / HTTP/1.1" 200 5665
+[2025-03-18 15:59:41,318] INFO django.server: "GET /static/orders/css/styles.css HTTP/1.1" 304 0
+[2025-03-18 15:59:41,319] INFO django.server: "GET /static/orders/images/logo.png HTTP/1.1" 304 0
+[2025-03-18 15:59:41,349] INFO django.server: "GET /static/orders/images/image1.jpg HTTP/1.1" 304 0
+[2025-03-18 15:59:41,354] INFO django.server: "GET /static/orders/images/image2.jpg HTTP/1.1" 304 0
+[2025-03-18 15:59:41,356] INFO django.server: "GET /static/orders/images/image3.jpg HTTP/1.1" 304 0
+[2025-03-18 15:59:41,357] INFO django.server: "GET /static/orders/images/image4.jpg HTTP/1.1" 304 0
+[2025-03-18 15:59:41,369] INFO django.server: "GET /static/orders/images/image7.jpg HTTP/1.1" 304 0
+[2025-03-18 15:59:41,383] INFO django.server: "GET /static/orders/files/menu.jpg HTTP/1.1" 304 0
+[2025-03-18 15:59:41,384] INFO django.server: "GET /static/orders/images/image5.jpg HTTP/1.1" 304 0
+[2025-03-18 15:59:41,385] INFO django.server: "GET /static/orders/images/image8.jpg HTTP/1.1" 304 0
+[2025-03-18 15:59:41,385] INFO django.server: "GET /static/orders/js/scripts.js HTTP/1.1" 200 14289
+[2025-03-18 15:59:41,386] INFO django.server: "GET /static/orders/images/image6.jpg HTTP/1.1" 304 0
+[2025-03-18 15:59:41,658] WARNING django.request: Not Found: /favicon.ico
+[2025-03-18 15:59:41,659] WARNING django.server: "GET /favicon.ico HTTP/1.1" 404 3254
+[2025-03-18 15:59:43,285] INFO django.server: "GET /service-worker.js HTTP/1.1" 200 2429
+[2025-03-18 16:01:04,588] INFO django.server: "GET / HTTP/1.1" 200 5665
+[2025-03-18 16:01:06,425] INFO django.server: "GET /service-worker.js HTTP/1.1" 200 2429
+[2025-03-18 16:01:11,975] INFO django.server: "GET / HTTP/1.1" 200 5665
+[2025-03-18 16:01:13,819] INFO django.server: "GET /service-worker.js HTTP/1.1" 200 2429
+[2025-03-18 16:01:25,234] INFO django.server: "GET /check-status/?token_no=1000 HTTP/1.1" 201 253
+[2025-03-18 16:01:28,889] INFO django.server: "POST /vendors/api/save-subscription/ HTTP/1.1" 200 47
+[2025-03-18 16:01:36,275] INFO vendors.utils: Sending push notification with payload: {'title': 'Order Update', 'body': 'Your order 1000 is now ready.', 'token_no': '1000', 'status': 'ready', 'counter_no': '3'} to subscription: {'endpoint': 'https://fcm.googleapis.com/fcm/send/f2R4GvcBmiw:APA91bGKrpnMZNIYZf3cJKFlFyu7vfb0FIEGhZxr-0ftGfHiZqRER0mD-qt-hsKCVC-h5KYmImqtYzzOthCtfGq1D7xu7cUbXPXzQS7izF3WkkKD3TTPv_0KsyCbnQic6QJU6b0-T8Kf', 'keys': {'p256dh': 'BL_flL-vU2DSBCAmM4tMs10uhg6AWYd3N360qdwlfqR_eJu1Byprkf8_Pf9y-uQY_ehnQQk1DWUdXWIaUCjCzz4', 'auth': 'ift7X8gEeOSr-JnERtfkxg'}}
+[2025-03-18 16:01:36,512] INFO vendors.utils: Push notification sent successfully.
+[2025-03-18 16:01:36,512] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 69
+[2025-03-18 16:01:36,547] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 69
+[2025-03-18 16:01:36,895] INFO django.server: "GET /static/orders/audio/0112.mp3 HTTP/1.1" 304 0
+[2025-03-18 16:01:44,536] INFO vendors.utils: Sending push notification with payload: {'title': 'Order Update', 'body': 'Your order 1000 is now ready.', 'token_no': '1000', 'status': 'ready', 'counter_no': '3'} to subscription: {'endpoint': 'https://fcm.googleapis.com/fcm/send/f2R4GvcBmiw:APA91bGKrpnMZNIYZf3cJKFlFyu7vfb0FIEGhZxr-0ftGfHiZqRER0mD-qt-hsKCVC-h5KYmImqtYzzOthCtfGq1D7xu7cUbXPXzQS7izF3WkkKD3TTPv_0KsyCbnQic6QJU6b0-T8Kf', 'keys': {'p256dh': 'BL_flL-vU2DSBCAmM4tMs10uhg6AWYd3N360qdwlfqR_eJu1Byprkf8_Pf9y-uQY_ehnQQk1DWUdXWIaUCjCzz4', 'auth': 'ift7X8gEeOSr-JnERtfkxg'}}
+[2025-03-18 16:01:44,728] INFO vendors.utils: Push notification sent successfully.
+[2025-03-18 16:01:44,729] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 69
+[2025-03-18 16:01:44,764] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 69
+[2025-03-18 16:01:57,106] INFO vendors.utils: Sending push notification with payload: {'title': 'Order Update', 'body': 'Your order 1000 is now ready.', 'token_no': '1000', 'status': 'ready', 'counter_no': '3'} to subscription: {'endpoint': 'https://fcm.googleapis.com/fcm/send/f2R4GvcBmiw:APA91bGKrpnMZNIYZf3cJKFlFyu7vfb0FIEGhZxr-0ftGfHiZqRER0mD-qt-hsKCVC-h5KYmImqtYzzOthCtfGq1D7xu7cUbXPXzQS7izF3WkkKD3TTPv_0KsyCbnQic6QJU6b0-T8Kf', 'keys': {'p256dh': 'BL_flL-vU2DSBCAmM4tMs10uhg6AWYd3N360qdwlfqR_eJu1Byprkf8_Pf9y-uQY_ehnQQk1DWUdXWIaUCjCzz4', 'auth': 'ift7X8gEeOSr-JnERtfkxg'}}
+[2025-03-18 16:01:57,293] INFO vendors.utils: Push notification sent successfully.
+[2025-03-18 16:01:57,293] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 69
+[2025-03-18 16:01:57,329] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 69
+[2025-03-18 16:02:25,187] INFO django.server: "GET / HTTP/1.1" 200 5665
+[2025-03-18 16:02:27,242] INFO django.server: "GET /service-worker.js HTTP/1.1" 200 2429
+[2025-03-18 16:06:40,631] WARNING django.server: "GET /static/orders/manifest.json HTTP/1.1" 404 2010
+[2025-03-18 16:06:41,492] INFO django.server: "GET /service-worker.js HTTP/1.1" 200 2429

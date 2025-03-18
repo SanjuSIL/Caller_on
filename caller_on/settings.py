@@ -36,12 +36,51 @@ VAPID_CLAIMS = {
 # VAPID_PUBLIC_KEY = "BE_nRyG4teLDX5IIeKaYrz5MUguUp3B0vxuBnCHowgNcXH6lZ3N5W6FAurkJZkOSxamISYtGth4EHA--8RkiIFA"
 # VAPID_PRIVATE_KEY = "VwNg3OAqqItodRkxwO7fkwF1HmmncewXICqA4SbYtDg"
 # VAPID_CLAIMS = {"sub": "mailto:sanju.softland@gmail.com"}
+LOGGING = {
+    "version": 1,
+    "disable_existing_loggers": False,
+    "formatters": {
+        "verbose": {
+            "format": "[{asctime}] {levelname} {name}: {message}",
+            "style": "{",
+        },
+        "simple": {
+            "format": "{levelname}: {message}",
+            "style": "{",
+        },
+    },
+    "handlers": {
+        "console": {
+            "class": "logging.StreamHandler",
+            "formatter": "verbose",
+        },
+        "file": {
+            "class": "logging.FileHandler",
+            "filename": "django_debug.log",
+            "formatter": "verbose",
+        },
+    },
+    "loggers": {
+        "django": {
+            "handlers": ["console", "file"],
+            "level": "INFO",
+            "propagate": True,
+        },
+        # You can add your own logger as well, for example:
+        "vendors": {
+            "handlers": ["console", "file"],
+            "level": "DEBUG",
+            "propagate": False,
+        },
+    },
+}
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['192.168.0.197', 'feline-clever-mutually.ngrok-free.app', 'random-id.ngrok-free.app','0.0.0.0','127.0.0.1','localhost']
+# ALLOWED_HOSTS = ['192.168.0.197','192.168.0.33', 'feline-clever-mutually.ngrok-free.app', 'random-id.ngrok-free.app','0.0.0.0','127.0.0.1','localhost']
+ALLOWED_HOSTS = ['*']
 CORS_ALLOW_ALL_ORIGINS = True
 
 

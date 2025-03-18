@@ -10,78 +10,63 @@ self.addEventListener("install", (event) => {
     event.waitUntil(clients.claim());
   });
   
-
-  {% comment %} self.addEventListener('push', (event) => {
-    console.log('[Service Worker] Push Received:', event);
-
+  console.log("Service worker loaded");
+  
+  self.addEventListener("push", (event) => {
+    console.log("[Service Worker] Push Received:", event);
+  
     let data = {};
     if (event.data) {
-        try {
-            data = event.data.json();
-            console.log('Received Push Data:', data);
-        } catch (error) {
-            console.error('Error parsing push data:', error);
-        }
+      try {
+        data = event.data.json();
+        console.log("[Service Worker] Push data:", data);
+      } catch (error) {
+        console.error("[Service Worker] Error parsing push data:", error);
+      }
     } else {
-        console.warn('No data received, using defaults.');
-        data = { title: "Default Title", body: "Default body" };
+      data = { title: "Order Update", body: "Your order is ready!" };
+      console.log("[Service Worker] No data payload, using default:", data);
     }
-
+  
+    // Ensure minimum payload fields
     const title = data.title || "Order Update";
     const options = {
-        body: data.body || "Your order is ready!",
-        icon: "/static/orders/images/logo.png"
-    };
-
-    event.waitUntil(self.registration.showNotification(title, options));
-}); {% endcomment %}
-console.log('Service worker loaded');
-self.addEventListener('push', (event) => {
-  console.log('[Service Worker] Push Received:', event);
-
-  let data = {};
-  if (event.data) {
-      try {
-          data = event.data.json();
-          console.log('Push data:', data);
-      } catch (error) {
-          console.error('Error parsing push data:', error);
-      }
-  } else {
-      data = { title: "Order Update", body: "Your order is ready!" };
-  }
-
-  const title = data.title || "Order Update";
-  const options = {
       body: data.body || "Your order is ready!",
-      icon: "/static/orders/images/logo.png",
-      // Attach full payload data so that clients can use it.
-      data: data
-  };
-
-  event.waitUntil(
-      self.registration.showNotification(title, options)
-      .then(() => {
-          // Broadcast the push message to all client pages.
-          return self.clients.matchAll({ includeUncontrolled: true, type: 'window' })
-          .then(clients => {
-              clients.forEach(client => {
-                  client.postMessage({
-                      type: 'PUSH_STATUS_UPDATE',
-                      payload: data
-                  });
-              });
-          });
-      })
-  );
-});
-
+      icon: "https://feline-clever-mutually.ngrok-free.app/static/orders/images/logo.png",
+      data: data, // Attach full payload for later use
+    };
   
-  
-
-self.addEventListener("notificationclick", (event) => {
-    event.notification.close();
     event.waitUntil(
-        clients.openWindow(event.notification.data.url) // Opens the URL when clicked
+      self.registration.showNotification(title, options)
+        .then(() => {
+          console.log("[Service Worker] Notification displayed.");
+          return self.clients.matchAll({ includeUncontrolled: true, type: "window" });
+        })
+        .then((clients) => {
+          console.log("[Service Worker] Found", clients.length, "client(s).");
+          clients.forEach((client) => {
+            client.postMessage({
+              type: "PUSH_STATUS_UPDATE",
+              payload: data,
+            });
+          });
+        })
+        .catch((err) => {
+          console.error("[Service Worker] Error displaying notification:", err);
+        })
     );
-});
+  });
+  
+  self.addEventListener("notificationclick", (event) => {
+    event.notification.close();
+    // Use a default URL if none is provided in the payload
+    const targetUrl = (event.notification.data && event.notification.data.url) 
+      ? event.notification.data.url 
+      : "https://feline-clever-mutually.ngrok-free.app";
+    
+    event.waitUntil(
+      clients.openWindow(targetUrl)
+        .catch(err => console.error("[Service Worker] Error opening window:", err))
+    );
+  });
+  
