@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', async function() {
     const permissionModal = new bootstrap.Modal(document.getElementById('permissionModal'));
     const notificationModal = new bootstrap.Modal(document.getElementById('notificationModal'));
     const chatContainer = document.getElementById('chat-container');
@@ -15,6 +15,28 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     window.addEventListener('resize', setVh);
     setVh();
+    // 1) Try the official Brave check
+    let braveDetected = false;
+    if (navigator.brave && typeof navigator.brave.isBrave === 'function') {
+        braveDetected = await navigator.brave.isBrave();
+    }
+
+    // 2) If that fails, try user agent or UA-CH fallback
+    if (!braveDetected) {
+        if (navigator.userAgent.includes("Brave")) {
+        braveDetected = true;
+        } else if (navigator.userAgentData && navigator.userAgentData.getHighEntropyValues) {
+        const data = await navigator.userAgentData.getHighEntropyValues(["brands"]);
+        if (data.brands.some(b => b.brand.includes("Brave"))) {
+            braveDetected = true;
+        }
+        }
+    }
+
+    // 3) If Brave is detected, show instructions
+    if (braveDetected) {
+        alert("It looks like you’re using Brave. Please ensure:\n\n1. Brave Settings > Privacy and Security > Site and Shields Settings > Notifications > 'Sites can ask to send notifications' is ON.\n2. Enable 'Use Google Services for Push Messaging' if shown.\n\nOtherwise, push notifications may fail.");
+    }
     
     // Show permission modal
     permissionModal.show();
