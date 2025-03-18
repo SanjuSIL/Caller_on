@@ -35,7 +35,7 @@ self.addEventListener("install", (event) => {
 
     event.waitUntil(self.registration.showNotification(title, options));
 }); {% endcomment %}
-
+console.log('Service worker loaded');
 self.addEventListener('push', (event) => {
   console.log('[Service Worker] Push Received:', event);
 
