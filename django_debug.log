@@ -370,3 +370,493 @@ django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'f0d7-202-88-23
 [2025-03-18 16:02:27,242] INFO django.server: "GET /service-worker.js HTTP/1.1" 200 2429
 [2025-03-18 16:06:40,631] WARNING django.server: "GET /static/orders/manifest.json HTTP/1.1" 404 2010
 [2025-03-18 16:06:41,492] INFO django.server: "GET /service-worker.js HTTP/1.1" 200 2429
+[2025-03-19 15:23:27,695] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2025-03-19 15:26:46,256] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 15:26:46,308] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 15:26:53,502] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 15:26:53,563] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 15:27:00,163] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 15:27:00,222] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 15:27:06,483] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 15:27:06,534] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 15:27:13,300] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 15:27:13,375] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 15:27:20,545] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 65
+[2025-03-19 15:27:20,613] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 65
+[2025-03-19 15:27:27,362] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 15:27:27,421] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 15:27:34,552] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 15:27:34,608] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 15:27:41,302] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 15:27:41,356] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 15:27:48,573] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 15:27:48,628] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 15:27:55,547] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 15:27:55,609] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 15:28:02,364] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 15:28:02,415] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 15:28:09,213] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 15:28:09,265] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 15:28:16,459] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 15:28:16,513] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 15:28:35,402] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 15:28:35,456] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 15:28:42,178] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 15:28:42,253] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 15:28:51,056] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 15:28:51,110] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 15:28:56,346] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 15:28:56,401] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 15:29:03,168] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 15:29:03,218] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 15:29:10,321] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 15:29:10,376] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 15:35:17,275] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 15:35:17,327] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 15:35:24,520] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 65
+[2025-03-19 15:35:24,571] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 65
+[2025-03-19 15:35:31,408] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 15:35:31,462] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 15:35:38,296] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 15:35:38,346] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 15:35:45,169] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 15:35:45,245] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 15:35:52,455] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 15:35:52,537] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 15:36:11,424] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 15:36:11,478] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 15:36:18,294] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 15:36:18,349] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 15:56:29,260] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 15:56:29,328] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 15:56:35,554] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 15:56:35,608] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:04:34,221] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:04:34,274] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:04:41,515] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 65
+[2025-03-19 16:04:41,568] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 65
+[2025-03-19 16:04:48,314] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:04:48,366] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:04:55,526] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:04:55,579] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:05:02,405] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:05:02,465] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:05:17,296] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:05:17,348] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:05:23,372] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2025-03-19 16:06:15,112] WARNING django.request: Not Found: /favicon.ico
+[2025-03-19 16:06:15,113] WARNING django.server: "GET /favicon.ico HTTP/1.1" 404 3254
+[2025-03-19 16:06:16,793] INFO django.server: "GET /service-worker.js HTTP/1.1" 200 2552
+[2025-03-19 16:07:23,601] INFO django.server: "GET / HTTP/1.1" 200 5665
+[2025-03-19 16:07:23,831] INFO django.server: "GET /static/orders/css/styles.css HTTP/1.1" 200 2583
+[2025-03-19 16:07:23,833] INFO django.server: "GET /static/orders/images/logo.png HTTP/1.1" 200 12329
+[2025-03-19 16:07:23,858] INFO django.server: "GET /static/orders/images/image1.jpg HTTP/1.1" 200 163361
+[2025-03-19 16:07:23,874] INFO django.server: "GET /static/orders/images/image3.jpg HTTP/1.1" 200 206171
+[2025-03-19 16:07:23,881] INFO django.server: "GET /static/orders/images/image7.jpg HTTP/1.1" 200 142191
+[2025-03-19 16:07:23,888] INFO django.server: "GET /static/orders/js/scripts.js HTTP/1.1" 200 14956
+[2025-03-19 16:07:23,889] INFO django.server: "GET /static/orders/images/image4.jpg HTTP/1.1" 200 165098
+[2025-03-19 16:07:23,890] INFO django.server: "GET /static/orders/images/image2.jpg HTTP/1.1" 200 190249
+[2025-03-19 16:07:23,891] INFO django.server: "GET /static/orders/images/image6.jpg HTTP/1.1" 200 139100
+[2025-03-19 16:07:23,892] INFO django.server: "GET /static/orders/images/image5.jpg HTTP/1.1" 200 240252
+[2025-03-19 16:07:23,945] INFO django.server: "GET /static/orders/files/menu.jpg HTTP/1.1" 200 291842
+[2025-03-19 16:07:23,945] INFO django.server: "GET /static/orders/images/image8.jpg HTTP/1.1" 200 170748
+[2025-03-19 16:07:24,599] INFO django.server: "GET /service-worker.js HTTP/1.1" 200 2552
+[2025-03-19 16:07:26,528] INFO django.server: "GET / HTTP/1.1" 200 5665
+[2025-03-19 16:08:20,024] INFO django.server: "GET /check-status/?token_no=1003 HTTP/1.1" 201 253
+[2025-03-19 16:08:29,242] INFO django.server: "POST /vendors/api/save-subscription/ HTTP/1.1" 200 47
+[2025-03-19 16:09:04,353] WARNING django.request: Bad Request: /vendors/api/update-order/
+[2025-03-19 16:09:04,354] WARNING django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 400 86
+[2025-03-19 16:09:04,401] WARNING django.request: Bad Request: /vendors/proxy/api/update-order/
+[2025-03-19 16:09:04,402] WARNING django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 400 86
+[2025-03-19 16:09:11,245] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:09:11,291] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:09:22,161] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:09:22,206] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:09:28,555] INFO vendors.utils: Sending push notification with payload: {'title': 'Order Update', 'body': 'Your order 1003 is now ready.', 'token_no': '1003', 'status': 'ready', 'counter_no': '3'} to subscription: {'endpoint': 'https://fcm.googleapis.com/fcm/send/e6JVxfTHipg:APA91bHJqUBoI8T7HXNAXRIA88iKWaJi8yiLaLkFPGveMXK_4g2iY1f0QYfXq_96tf0-2SaAEkgrq7Yg8svjdLCK7EojuWFC1IfzTwV5SLp5k0Ftl2PEATUD08q93i8GbAcPzwqfx5zj', 'keys': {'p256dh': 'BE48-mae600OIAqH0LBtk-BQOEcGhD4l-AYXixiOpBLSCWMlyjIoijNTOOCTG-EspyBOAjdrAf05JgpwiNj5VdE', 'auth': 'Gm85BBpV4TB7nY3kIWX0yQ'}}
+[2025-03-19 16:09:29,164] INFO vendors.utils: Push notification sent successfully.
+[2025-03-19 16:09:29,171] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 69
+[2025-03-19 16:09:29,183] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:09:29,254] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:09:35,563] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:09:35,608] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:09:39,311] INFO django.server: "GET / HTTP/1.1" 200 5665
+[2025-03-19 16:09:39,312] INFO django.server: "GET /static/orders/audio/0112.mp3 HTTP/1.1" 200 29228
+[2025-03-19 16:09:39,874] INFO django.server: "GET /static/orders/js/scripts.js HTTP/1.1" 304 0
+[2025-03-19 16:09:42,216] INFO django.server: "GET /service-worker.js HTTP/1.1" 200 2552
+[2025-03-19 16:09:42,399] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:09:42,454] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:09:49,316] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:09:49,363] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:09:56,051] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:09:56,098] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:10:03,453] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:10:03,503] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:10:10,242] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:10:10,288] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:22:44,010] INFO vendors.utils: Sending push notification with payload: {'title': 'Order Update', 'body': 'Your order 1003 is now ready.', 'token_no': '1003', 'status': 'ready', 'counter_no': '3'} to subscription: {'endpoint': 'https://fcm.googleapis.com/fcm/send/e6JVxfTHipg:APA91bHJqUBoI8T7HXNAXRIA88iKWaJi8yiLaLkFPGveMXK_4g2iY1f0QYfXq_96tf0-2SaAEkgrq7Yg8svjdLCK7EojuWFC1IfzTwV5SLp5k0Ftl2PEATUD08q93i8GbAcPzwqfx5zj', 'keys': {'p256dh': 'BE48-mae600OIAqH0LBtk-BQOEcGhD4l-AYXixiOpBLSCWMlyjIoijNTOOCTG-EspyBOAjdrAf05JgpwiNj5VdE', 'auth': 'Gm85BBpV4TB7nY3kIWX0yQ'}}
+[2025-03-19 16:22:44,595] INFO vendors.utils: Push notification sent successfully.
+[2025-03-19 16:22:44,597] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 69
+[2025-03-19 16:22:57,059] INFO vendors.utils: Sending push notification with payload: {'title': 'Order Update', 'body': 'Your order 1003 is now ready.', 'token_no': '1003', 'status': 'ready', 'counter_no': '3'} to subscription: {'endpoint': 'https://fcm.googleapis.com/fcm/send/e6JVxfTHipg:APA91bHJqUBoI8T7HXNAXRIA88iKWaJi8yiLaLkFPGveMXK_4g2iY1f0QYfXq_96tf0-2SaAEkgrq7Yg8svjdLCK7EojuWFC1IfzTwV5SLp5k0Ftl2PEATUD08q93i8GbAcPzwqfx5zj', 'keys': {'p256dh': 'BE48-mae600OIAqH0LBtk-BQOEcGhD4l-AYXixiOpBLSCWMlyjIoijNTOOCTG-EspyBOAjdrAf05JgpwiNj5VdE', 'auth': 'Gm85BBpV4TB7nY3kIWX0yQ'}}
+[2025-03-19 16:22:57,646] INFO vendors.utils: Push notification sent successfully.
+[2025-03-19 16:22:57,646] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 69
+[2025-03-19 16:23:05,993] WARNING django.request: Not Found: /favicon.ico
+[2025-03-19 16:23:05,994] WARNING django.server: "GET /favicon.ico HTTP/1.1" 404 3254
+[2025-03-19 16:23:07,724] INFO django.server: "GET /service-worker.js HTTP/1.1" 200 2940
+[2025-03-19 16:25:20,423] INFO django.server: "GET / HTTP/1.1" 200 5665
+[2025-03-19 16:25:20,604] INFO django.server: "GET /static/orders/css/styles.css HTTP/1.1" 200 2583
+[2025-03-19 16:25:20,605] INFO django.server: "GET /static/orders/images/logo.png HTTP/1.1" 200 12329
+[2025-03-19 16:25:20,641] INFO django.server: "GET /static/orders/images/image1.jpg HTTP/1.1" 200 163361
+[2025-03-19 16:25:20,661] INFO django.server: "GET /static/orders/images/image2.jpg HTTP/1.1" 200 190249
+[2025-03-19 16:25:20,670] INFO django.server: "GET /static/orders/images/image4.jpg HTTP/1.1" 200 165098
+[2025-03-19 16:25:20,671] INFO django.server: "GET /static/orders/images/image3.jpg HTTP/1.1" 200 206171
+[2025-03-19 16:25:20,718] INFO django.server: "GET /static/orders/js/scripts.js HTTP/1.1" 200 16417
+[2025-03-19 16:25:20,753] INFO django.server: "GET /static/orders/images/image5.jpg HTTP/1.1" 200 240252
+[2025-03-19 16:25:21,024] INFO django.server: "GET /static/orders/images/image6.jpg HTTP/1.1" 200 139100
+[2025-03-19 16:25:21,496] INFO django.server: "GET /static/orders/images/image7.jpg HTTP/1.1" 200 142191
+[2025-03-19 16:25:21,576] INFO django.server: "GET /service-worker.js HTTP/1.1" 200 2940
+[2025-03-19 16:25:21,618] INFO django.server: "GET /static/orders/images/image8.jpg HTTP/1.1" 200 170748
+[2025-03-19 16:25:21,726] INFO django.server: "GET /static/orders/files/menu.jpg HTTP/1.1" 200 291842
+[2025-03-19 16:25:41,555] INFO django.server: "GET /check-status/?token_no=1004 HTTP/1.1" 201 253
+[2025-03-19 16:25:44,514] INFO django.server: "POST /vendors/api/save-subscription/ HTTP/1.1" 200 47
+[2025-03-19 16:25:56,343] INFO vendors.utils: Sending push notification with payload: {'title': 'Order Update', 'body': 'Your order 1004 is now ready.', 'token_no': '1004', 'status': 'ready', 'counter_no': '3'} to subscription: {'endpoint': 'https://fcm.googleapis.com/fcm/send/dto-wbPYhoI:APA91bEW-f5J6T5djqwh5mG5iuwS2xMkKI4wqdHLnzVQtrUAywA0AHVWljFhUpnn8zIJvQT1F3bEeQw0yxvw02G7bf3mjJob7Z5WW4m0oxfAFtGlvI-CLQ8Hi7ZirchoU0QeBxOQCrm1', 'keys': {'p256dh': 'BER2_VFU4DZVo-T77uSVHS7nTVG3oIJZOsvOQL6i-p_vQY_P-iZ-4DlY8UVPsa3n9Acc7Clr0ARPtNXPkeBF270', 'auth': 'JfDUpItAqtj6Kts0ET6XNg'}}
+[2025-03-19 16:25:56,944] INFO vendors.utils: Push notification sent successfully.
+[2025-03-19 16:25:56,946] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 69
+[2025-03-19 16:26:03,261] INFO django.server: "GET /static/orders/audio/0112.mp3 HTTP/1.1" 200 29228
+[2025-03-19 16:26:24,143] INFO django.server: "GET /check-status/?token_no=1005 HTTP/1.1" 200 114
+[2025-03-19 16:26:29,850] INFO django.server: "POST /vendors/api/save-subscription/ HTTP/1.1" 200 47
+[2025-03-19 16:26:32,167] INFO django.server: "GET /check-status/?token_no=1006 HTTP/1.1" 201 253
+[2025-03-19 16:26:35,965] INFO django.server: "POST /vendors/api/save-subscription/ HTTP/1.1" 200 47
+[2025-03-19 16:26:49,130] INFO vendors.utils: Sending push notification with payload: {'title': 'Order Update', 'body': 'Your order 1006 is now ready.', 'token_no': '1006', 'status': 'ready', 'counter_no': '3'} to subscription: {'endpoint': 'https://fcm.googleapis.com/fcm/send/eZCLX9SoaYU:APA91bHoHHtaznRD8cDhFqIFkv_iWQkIXrMRG0EFvCjkFDvifQQaHwm6IFV-j3bscr19OOvL8E8VGodnx-nMs_gWKYpZRtqOJEnmAh03mAXE6eJQntXSOlBJ-thh-Q26OOQn6ThEyiaE', 'keys': {'p256dh': 'BMOJj7BzOfnSp-0k6Ol1Fa2UyrjcFGRMyqhaqL-qoHRGJLfnixst6mgTscgLQskWTNGir25zZbnlh6IbwrxpxFs', 'auth': 'Ixxlzz4w7CPYYll1sHyJpg'}}
+[2025-03-19 16:26:49,745] INFO vendors.utils: Push notification sent successfully.
+[2025-03-19 16:26:49,747] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 69
+[2025-03-19 16:27:17,087] WARNING django.request: Not Found: /favicon.ico
+[2025-03-19 16:27:17,087] WARNING django.server: "GET /favicon.ico HTTP/1.1" 404 3254
+[2025-03-19 16:27:18,470] INFO django.server: "GET /service-worker.js HTTP/1.1" 200 2940
+[2025-03-19 16:27:26,835] INFO django.server: "GET /check-status/?token_no=1007 HTTP/1.1" 200 114
+[2025-03-19 16:27:30,679] INFO django.server: "POST /vendors/api/save-subscription/ HTTP/1.1" 200 47
+[2025-03-19 16:28:09,607] INFO django.server: "GET /admin/ HTTP/1.1" 200 11646
+[2025-03-19 16:28:09,655] INFO django.server: "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+[2025-03-19 16:28:09,657] INFO django.server: "GET /static/admin/css/base.css HTTP/1.1" 200 22092
+[2025-03-19 16:28:09,657] INFO django.server: "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+[2025-03-19 16:28:09,658] INFO django.server: "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2804
+[2025-03-19 16:28:09,661] INFO django.server: "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+[2025-03-19 16:28:09,662] INFO django.server: "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+[2025-03-19 16:28:09,662] INFO django.server: "GET /static/admin/css/responsive.css HTTP/1.1" 200 17972
+[2025-03-19 16:28:09,741] WARNING django.request: Not Found: /favicon.ico
+[2025-03-19 16:28:09,743] INFO django.server: "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+[2025-03-19 16:28:09,743] INFO django.server: "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[2025-03-19 16:28:09,744] INFO django.server: "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[2025-03-19 16:28:12,045] INFO django.server: "GET /admin/vendors/order/ HTTP/1.1" 200 30622
+[2025-03-19 16:28:12,077] INFO django.server: "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+[2025-03-19 16:28:12,083] INFO django.server: "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+[2025-03-19 16:28:12,083] INFO django.server: "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+[2025-03-19 16:28:12,086] INFO django.server: "GET /static/admin/css/changelists.css HTTP/1.1" 200 6878
+[2025-03-19 16:28:12,088] INFO django.server: "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+[2025-03-19 16:28:12,092] INFO django.server: "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+[2025-03-19 16:28:12,093] INFO django.server: "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9097
+[2025-03-19 16:28:12,094] INFO django.server: "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+[2025-03-19 16:28:12,096] INFO django.server: "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+[2025-03-19 16:28:12,098] INFO django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-03-19 16:28:12,100] INFO django.server: "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+[2025-03-19 16:28:12,126] INFO django.server: "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+[2025-03-19 16:28:12,202] INFO django.server: "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[2025-03-19 16:28:12,204] INFO django.server: "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+[2025-03-19 16:28:12,251] WARNING django.request: Not Found: /favicon.ico
+[2025-03-19 16:28:22,559] INFO django.server: "POST /admin/vendors/order/ HTTP/1.1" 200 15190
+[2025-03-19 16:28:29,324] INFO django.server: "POST /admin/vendors/order/ HTTP/1.1" 302 0
+[2025-03-19 16:28:29,342] INFO django.server: "GET /admin/vendors/order/ HTTP/1.1" 200 10281
+[2025-03-19 16:28:29,433] INFO django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-03-19 16:28:29,459] INFO django.server: "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[2025-03-19 16:28:33,299] INFO django.server: "GET /admin/vendors/pushsubscription/ HTTP/1.1" 200 17686
+[2025-03-19 16:28:33,333] INFO django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-03-19 16:28:38,259] INFO django.server: "POST /admin/vendors/pushsubscription/ HTTP/1.1" 200 10758
+[2025-03-19 16:28:39,436] INFO django.server: "POST /admin/vendors/pushsubscription/ HTTP/1.1" 302 0
+[2025-03-19 16:28:39,456] INFO django.server: "GET /admin/vendors/pushsubscription/ HTTP/1.1" 200 10250
+[2025-03-19 16:28:39,531] INFO django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-03-19 16:28:39,559] WARNING django.request: Not Found: /favicon.ico
+[2025-03-19 16:28:41,582] INFO django.server: "GET /admin/vendors/order/ HTTP/1.1" 200 10144
+[2025-03-19 16:28:41,619] INFO django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[2025-03-19 16:28:51,040] INFO django.server: "GET /check-status/?token_no=1000 HTTP/1.1" 201 253
+[2025-03-19 16:28:54,777] INFO django.server: "POST /vendors/api/save-subscription/ HTTP/1.1" 200 47
+[2025-03-19 16:29:01,554] INFO vendors.utils: Sending push notification with payload: {'title': 'Order Update', 'body': 'Your order 1000 is now ready.', 'token_no': '1000', 'status': 'ready', 'counter_no': '3'} to subscription: {'endpoint': 'https://fcm.googleapis.com/fcm/send/cA818OXpLAw:APA91bH2sOa4i5JDDupMEZFfb76IqLGbwoQoOvxdteS_QnRtFGLyUgz0X0T0DyeWOv0JfBi63Xz-OfHkVbSM7o3QYamO5Av9BtrU3RBaVNocWZi6C9XuFYUMNVVUdL6-qtVQxYCyRmIF', 'keys': {'p256dh': 'BITumzwgc-EI6HN5p957-c9EVRphMcDXFA1wf03E7Ei3aW0-SeNqv_oKt4dwxSsHnYY1Na4f_iTwqZ8R6yxh3NI', 'auth': 'NpOKONR7bnqjiUiKWyGj8w'}}
+[2025-03-19 16:29:02,145] INFO vendors.utils: Push notification sent successfully.
+[2025-03-19 16:29:02,147] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 69
+[2025-03-19 16:30:22,447] INFO django.server: "GET /check-status/?token_no=1002 HTTP/1.1" 201 253
+[2025-03-19 16:30:26,717] INFO django.server: "POST /vendors/api/save-subscription/ HTTP/1.1" 200 47
+[2025-03-19 16:30:32,068] INFO django.server: "GET /check-status/?token_no=1003 HTTP/1.1" 201 253
+[2025-03-19 16:30:35,642] INFO django.server: "POST /vendors/api/save-subscription/ HTTP/1.1" 200 47
+[2025-03-19 16:32:44,850] INFO django.server: "GET / HTTP/1.1" 200 5665
+[2025-03-19 16:32:45,202] INFO django.server: "GET /static/orders/css/styles.css HTTP/1.1" 200 2583
+[2025-03-19 16:32:45,225] INFO django.server: "GET /static/orders/images/logo.png HTTP/1.1" 200 12329
+[2025-03-19 16:32:45,227] INFO django.server: "GET /static/orders/images/image2.jpg HTTP/1.1" 200 190249
+[2025-03-19 16:32:45,228] INFO django.server: "GET /static/orders/images/image1.jpg HTTP/1.1" 200 163361
+[2025-03-19 16:32:45,250] INFO django.server: "GET /static/orders/images/image3.jpg HTTP/1.1" 200 206171
+[2025-03-19 16:32:45,253] INFO django.server: "GET /static/orders/images/image4.jpg HTTP/1.1" 200 165098
+[2025-03-19 16:32:45,309] INFO django.server: "GET /static/orders/js/scripts.js HTTP/1.1" 200 16452
+[2025-03-19 16:32:45,724] INFO django.server: "GET /static/orders/images/image6.jpg HTTP/1.1" 200 139100
+[2025-03-19 16:32:45,725] INFO django.server: "GET /static/orders/images/image5.jpg HTTP/1.1" 200 240252
+[2025-03-19 16:32:45,817] INFO django.server: "GET /service-worker.js HTTP/1.1" 200 2940
+[2025-03-19 16:32:46,031] INFO django.server: "GET /static/orders/images/image7.jpg HTTP/1.1" 200 142191
+[2025-03-19 16:32:46,252] INFO django.server: "GET /static/orders/images/image8.jpg HTTP/1.1" 200 170748
+[2025-03-19 16:32:46,253] INFO django.server: "GET /static/orders/files/menu.jpg HTTP/1.1" 200 291842
+[2025-03-19 16:32:54,344] INFO django.server: "GET /check-status/?token_no=1005 HTTP/1.1" 201 253
+[2025-03-19 16:32:57,346] INFO django.server: "POST /vendors/api/save-subscription/ HTTP/1.1" 200 47
+[2025-03-19 16:33:06,635] INFO vendors.utils: Sending push notification with payload: {'title': 'Order Update', 'body': 'Your order 1005 is now ready.', 'token_no': '1005', 'status': 'ready', 'counter_no': '3'} to subscription: {'endpoint': 'https://fcm.googleapis.com/fcm/send/cEDBK8tJucA:APA91bGTx59UxlsQIxRnkBnNIQt0Tkakc6VvpIg27K2Fn2R8Z0jwZVrTGzIORm4nJ0ssamDXJm8h_Y1DGkj7a7D88ucl-039I5NtmPIG-XKe3dFkO0lfxBceGnE58L5teJeOeVw8rYUH', 'keys': {'p256dh': 'BK-GNfwhX4KjdPuXDyIR80Dr31Hnpa7YEO7Wwf1PXvgx8VB51wXpk2IuXTYpJd4b87ZRSrDF1CEEe8wZtHSxstA', 'auth': 'oFKZZE9JSI86HzOJ1ncDVQ'}}
+[2025-03-19 16:33:07,236] INFO vendors.utils: Push notification sent successfully.
+[2025-03-19 16:33:07,237] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 69
+[2025-03-19 16:33:07,679] INFO django.server: "GET /static/orders/audio/0112.mp3 HTTP/1.1" 200 29228
+[2025-03-19 16:33:27,720] INFO django.server: "GET /check-status/?token_no=1006 HTTP/1.1" 201 253
+[2025-03-19 16:33:31,364] INFO django.server: "POST /vendors/api/save-subscription/ HTTP/1.1" 200 47
+[2025-03-19 16:33:47,433] INFO django.server: "GET / HTTP/1.1" 200 5665
+[2025-03-19 16:33:47,755] INFO django.server: "GET /static/orders/js/scripts.js HTTP/1.1" 304 0
+[2025-03-19 16:33:49,652] INFO django.server: "GET /service-worker.js HTTP/1.1" 200 2940
+[2025-03-19 16:33:53,457] INFO django.server: "GET /check-status/?token_no=1005 HTTP/1.1" 200 114
+[2025-03-19 16:33:57,350] INFO django.server: "POST /vendors/api/save-subscription/ HTTP/1.1" 200 47
+[2025-03-19 16:33:59,031] INFO django.server: "GET /check-status/?token_no=1006 HTTP/1.1" 200 118
+[2025-03-19 16:34:03,199] INFO django.server: "POST /vendors/api/save-subscription/ HTTP/1.1" 200 47
+[2025-03-19 16:34:42,154] INFO vendors.utils: Sending push notification with payload: {'title': 'Order Update', 'body': 'Your order 1006 is now ready.', 'token_no': '1006', 'status': 'ready', 'counter_no': '3'} to subscription: {'endpoint': 'https://fcm.googleapis.com/fcm/send/ct0uiI_qzfQ:APA91bH1YG7KngQR3txkitmmkHfv-0kSBL1jcT5bt1XgTY59zHqw1vbmtf9doQxfCPSe7ox45Dh0NE7607TeueyQLIPksXGVCj0N3MWdq9rdJP-Azv9WACMabQ92rv7P6-SryleFwKhu', 'keys': {'p256dh': 'BO8JsRuqz6Ic-zp4un80MDwDuHQHqeR8QB7Qzb7-o5PR5p7ZZyxhyyW52eu5t8OdnQ8LiUBcO7D98U7HTBy3GQg', 'auth': '_J9SuXL5u21g7I6VpFwZ7A'}}
+[2025-03-19 16:34:42,746] INFO vendors.utils: Push notification sent successfully.
+[2025-03-19 16:34:42,748] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 69
+[2025-03-19 16:34:49,656] INFO django.server: "GET /check-status/?token_no=1007 HTTP/1.1" 201 253
+[2025-03-19 16:34:53,360] INFO django.server: "POST /vendors/api/save-subscription/ HTTP/1.1" 200 47
+[2025-03-19 16:35:00,447] INFO django.server: "GET /check-status/?token_no=1008 HTTP/1.1" 201 253
+[2025-03-19 16:35:04,360] INFO django.server: "POST /vendors/api/save-subscription/ HTTP/1.1" 200 47
+[2025-03-19 16:45:03,783] INFO django.server: "GET / HTTP/1.1" 200 5665
+[2025-03-19 16:45:04,055] INFO django.server: "GET /static/orders/css/styles.css HTTP/1.1" 200 2583
+[2025-03-19 16:45:04,057] INFO django.server: "GET /static/orders/images/logo.png HTTP/1.1" 200 12329
+[2025-03-19 16:45:04,059] INFO django.server: "GET /static/orders/images/image1.jpg HTTP/1.1" 200 163361
+[2025-03-19 16:45:04,097] INFO django.server: "GET /static/orders/images/image5.jpg HTTP/1.1" 200 240252
+[2025-03-19 16:45:04,109] INFO django.server: "GET /static/orders/images/image2.jpg HTTP/1.1" 200 190249
+[2025-03-19 16:45:04,113] INFO django.server: "GET /static/orders/images/image4.jpg HTTP/1.1" 200 165098
+[2025-03-19 16:45:04,115] INFO django.server: "GET /static/orders/js/scripts.js HTTP/1.1" 200 16605
+[2025-03-19 16:45:04,121] INFO django.server: "GET /static/orders/images/image7.jpg HTTP/1.1" 200 142191
+[2025-03-19 16:45:04,121] INFO django.server: "GET /static/orders/images/image6.jpg HTTP/1.1" 200 139100
+[2025-03-19 16:45:04,122] INFO django.server: "GET /static/orders/images/image8.jpg HTTP/1.1" 200 170748
+[2025-03-19 16:45:04,122] INFO django.server: "GET /static/orders/images/image3.jpg HTTP/1.1" 200 206171
+[2025-03-19 16:45:04,125] INFO django.server: "GET /static/orders/files/menu.jpg HTTP/1.1" 200 291842
+[2025-03-19 16:45:05,009] INFO django.server: "GET /service-worker.js HTTP/1.1" 200 2940
+[2025-03-19 16:45:11,219] INFO django.server: "GET / HTTP/1.1" 200 5665
+[2025-03-19 16:45:11,549] INFO django.server: "GET /static/orders/js/scripts.js HTTP/1.1" 304 0
+[2025-03-19 16:45:14,032] INFO django.server: "GET /service-worker.js HTTP/1.1" 200 2940
+[2025-03-19 16:45:17,428] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:45:17,471] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:45:24,246] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:45:24,293] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:45:26,158] INFO django.server: "GET /check-status/?token_no=1009 HTTP/1.1" 201 254
+[2025-03-19 16:45:31,149] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:45:31,197] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:45:33,964] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 69
+[2025-03-19 16:45:34,832] INFO django.server: "POST /vendors/api/save-subscription/ HTTP/1.1" 200 47
+[2025-03-19 16:45:38,589] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:45:38,662] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:45:55,223] INFO vendors.utils: Sending push notification with payload: {'title': 'Order Update', 'body': 'Your order 1009 is now ready.', 'token_no': '1009', 'status': 'ready', 'counter_no': '3'} to subscription: {'endpoint': 'https://fcm.googleapis.com/fcm/send/dHPENxRO2GI:APA91bEs2wnQiFGtKpnoFSyJrLG8xz5SX_ZI7hoXGFAYm81g4QaTZoIGqbHRSucivCPsCxjCDIVHtduTogAAELAPB-ZbVObthGHw8eX_uBPVZSNBVwNTqcb3SZYGsrufI3oVtijGBrN7', 'keys': {'p256dh': 'BC59eEgqebSaJFxKjBc-f165DY4MQ7gOY9orn4fvmN5hkg2QqsLK-vm8RaDZBhZ3x3U2rfMqgVFcOqk5w1eyCGg', 'auth': 'qe1C1wBOaMUyC2WFEP8JmQ'}}
+[2025-03-19 16:45:55,811] INFO vendors.utils: Push notification sent successfully.
+[2025-03-19 16:45:55,812] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 69
+[2025-03-19 16:45:56,215] INFO django.server: "GET /static/orders/audio/0112.mp3 HTTP/1.1" 200 29228
+[2025-03-19 16:46:11,062] INFO django.server: "GET /check-status/?token_no=1010 HTTP/1.1" 201 254
+[2025-03-19 16:46:15,062] INFO django.server: "POST /vendors/api/save-subscription/ HTTP/1.1" 200 47
+[2025-03-19 16:46:25,049] INFO django.server: "GET /check-status/?token_no=1011 HTTP/1.1" 201 254
+[2025-03-19 16:46:28,781] INFO django.server: "POST /vendors/api/save-subscription/ HTTP/1.1" 200 47
+[2025-03-19 16:47:21,515] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:47:21,571] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:47:28,405] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:47:28,461] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:47:35,415] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:47:35,465] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:47:42,284] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:47:42,347] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:47:49,146] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:47:49,199] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:47:56,346] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:47:56,394] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:48:03,279] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:48:03,372] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:48:10,585] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:48:10,652] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:48:11,706] INFO django.server: "GET / HTTP/1.1" 200 5665
+[2025-03-19 16:48:17,424] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:48:17,506] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:48:18,920] INFO django.server: "GET /check-status/?token_no=1012 HTTP/1.1" 201 254
+[2025-03-19 16:48:23,322] INFO django.server: "POST /vendors/api/save-subscription/ HTTP/1.1" 200 47
+[2025-03-19 16:48:24,369] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:48:24,444] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:48:31,303] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:48:31,350] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:48:38,158] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:48:38,208] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:48:45,506] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:48:45,553] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:48:52,389] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:48:52,436] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:48:59,237] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:48:59,280] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:49:06,519] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:49:06,570] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:49:13,366] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:49:13,416] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:49:16,881] INFO django.server: "GET / HTTP/1.1" 200 5665
+[2025-03-19 16:49:17,239] INFO django.server: "GET /static/orders/js/scripts.js HTTP/1.1" 304 0
+[2025-03-19 16:49:19,907] INFO django.server: "GET /service-worker.js HTTP/1.1" 200 2940
+[2025-03-19 16:49:30,139] INFO django.server: "GET /check-status/?token_no=1003 HTTP/1.1" 200 118
+[2025-03-19 16:49:34,236] INFO django.server: "POST /vendors/api/save-subscription/ HTTP/1.1" 200 47
+[2025-03-19 16:49:36,261] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:49:36,314] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:49:43,105] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:49:43,156] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:49:58,353] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:49:58,399] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:50:05,236] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 65
+[2025-03-19 16:50:05,285] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 65
+[2025-03-19 16:50:12,518] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:50:12,566] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:50:19,513] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:50:19,572] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:50:26,374] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:50:26,439] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:50:33,253] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:50:33,297] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:50:40,179] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:50:40,292] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:50:47,545] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:50:47,592] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:50:54,368] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:50:54,424] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:51:01,246] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:51:01,296] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:51:08,182] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:51:08,257] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:51:43,195] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 65
+[2025-03-19 16:51:43,245] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 65
+[2025-03-19 16:51:50,530] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 65
+[2025-03-19 16:51:50,577] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 65
+[2025-03-19 16:51:57,457] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:51:57,502] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:52:04,298] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 65
+[2025-03-19 16:52:04,343] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 65
+[2025-03-19 16:52:11,272] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 65
+[2025-03-19 16:52:11,326] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 65
+[2025-03-19 16:52:17,626] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 65
+[2025-03-19 16:52:17,697] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 65
+[2025-03-19 16:52:24,558] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:52:24,604] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:52:31,533] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:52:31,583] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:52:38,457] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:52:38,534] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:52:45,348] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:52:45,391] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:52:52,142] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 64
+[2025-03-19 16:52:52,190] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 64
+[2025-03-19 16:52:59,349] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 64
+[2025-03-19 16:52:59,398] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 64
+[2025-03-19 16:53:06,211] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 64
+[2025-03-19 16:53:06,255] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 64
+[2025-03-19 16:53:13,434] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 64
+[2025-03-19 16:53:13,480] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 64
+[2025-03-19 16:53:20,299] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:53:20,354] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:53:27,566] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:53:27,609] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:53:34,330] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:53:34,376] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:53:41,466] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:53:41,512] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:53:48,345] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:53:48,401] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:53:55,202] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:53:55,245] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:54:02,628] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 65
+[2025-03-19 16:54:02,681] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 65
+[2025-03-19 16:54:09,478] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:54:09,523] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:54:16,208] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:54:16,251] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:54:24,430] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:54:24,474] INFO django.server: "PATCH /vendors/proxy/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:54:56,099] INFO vendors.utils: Sending push notification with payload: {'title': 'Order Update', 'body': 'Your order 1003 is now ready.', 'token_no': '1003', 'status': 'ready', 'counter_no': '3'} to subscription: {'endpoint': 'https://fcm.googleapis.com/fcm/send/e3sn-EsI9Eo:APA91bG7VUhcSRqQEd0ireUGtqosGN9dG_lEi0yhZuM6OPlTAE_bQDvGDu14wC9OBhL_bdC5lE9rCXVwh3Pkqqnmf8170BMU5h6zPKZYKEen_copJVMt6laIeOCpLWROYe4tFL-RuOc-', 'keys': {'p256dh': 'BBVoKF5fWhytDLslAmlKF3mCVhzPt6ICs51BgM9fq8qbuo44nQfP1Cu0zB9noQyDI5IMIUyEjShmRuZQLoNFyBA', 'auth': 'MzSQ37cMj01AdhbDG3CgMw'}}
+[2025-03-19 16:54:56,281] ERROR vendors.utils: Web push failed: WebPushException('Push failed: 410 Gone\nResponse body:push subscription has unsubscribed or expired.\n')
+[2025-03-19 16:54:56,282] INFO vendors.utils: Sending push notification with payload: {'title': 'Order Update', 'body': 'Your order 1003 is now ready.', 'token_no': '1003', 'status': 'ready', 'counter_no': '3'} to subscription: {'endpoint': 'https://fcm.googleapis.com/fcm/send/epFs70-ugGI:APA91bFL-_X9TcP57gVgPm4gYm4Kqqcsedn-mEkhpoTnPVW2od2NM1Stjg8Mi3cIv0wyYwzhmYoV6QPFx5-prHdXfY6F_3EcJcYHaSj0TiNpEhOrecU-ZkDoP7orX0oE2vUiOeg3uHy5', 'keys': {'p256dh': 'BA7el3bln0mXRSsa8vamOfMXoBjMPCr4A6haNHHyVLdooH2SJBeoHazGJMQyENU6FOe_IJ5jAcIhr81BsVyAOHE', 'auth': 'SS2N5BISjMpTScFXIdojQA'}}
+[2025-03-19 16:54:56,872] INFO vendors.utils: Push notification sent successfully.
+[2025-03-19 16:54:56,874] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 69
+[2025-03-19 16:56:21,759] INFO django.server: "GET / HTTP/1.1" 200 5665
+[2025-03-19 16:56:22,017] INFO django.server: "GET /static/orders/js/scripts.js HTTP/1.1" 304 0
+[2025-03-19 16:56:24,267] INFO django.server: "GET /service-worker.js HTTP/1.1" 200 2940
+[2025-03-19 16:56:54,143] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:57:01,078] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:57:08,143] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:57:11,203] INFO django.server: "GET /check-status/?token_no=1004 HTTP/1.1" 201 254
+[2025-03-19 16:57:15,137] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:57:15,547] INFO django.server: "POST /vendors/api/save-subscription/ HTTP/1.1" 200 47
+[2025-03-19 16:57:22,191] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:57:23,114] INFO vendors.utils: Sending push notification with payload: {'title': 'Order Update', 'body': 'Your order 1004 is now ready.', 'token_no': '1004', 'status': 'ready', 'counter_no': '3'} to subscription: {'endpoint': 'https://fcm.googleapis.com/fcm/send/exzj_LVcJWU:APA91bHRPwT1Jrnk7x8W7zbUibD21GyWT_VF-Unqk-D5I4jM9gwKcuZ4U9q_xFAzDGvLltJqXvp8lxXNrzSC6JdqwUbCB14NTlv3QjrDCP3b-qTDRhZBLk4V16t_-qO8Fsiwjaqki9cy', 'keys': {'p256dh': 'BDUgDqIgqh1GB0pJAJP7Qz_PsHMmjG5sM-4lQM_VI0fzwRRsgFTF7papjoo15sEIhFXnAqupPbMAbC05wjeVC6Q', 'auth': 'XmbSwq7t4rtrl8Fzw-xIlg'}}
+[2025-03-19 16:57:23,697] INFO vendors.utils: Push notification sent successfully.
+[2025-03-19 16:57:23,699] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 69
+[2025-03-19 16:57:29,189] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:57:36,270] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:57:43,369] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:57:53,387] INFO django.server: "GET /check-status/?token_no=1005 HTTP/1.1" 200 114
+[2025-03-19 16:57:57,925] INFO django.server: "POST /vendors/api/save-subscription/ HTTP/1.1" 200 47
+[2025-03-19 16:59:02,283] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:59:09,283] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:59:16,262] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:59:23,248] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:59:30,293] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 16:59:37,302] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 17:00:05,400] INFO django.server: "GET / HTTP/1.1" 200 5665
+[2025-03-19 17:00:05,714] INFO django.server: "GET /static/orders/js/scripts.js HTTP/1.1" 304 0
+[2025-03-19 17:00:07,959] INFO django.server: "GET /service-worker.js HTTP/1.1" 200 2940
+[2025-03-19 17:00:12,278] INFO django.server: "GET /check-status/?token_no=1001 HTTP/1.1" 201 254
+[2025-03-19 17:00:16,375] INFO django.server: "POST /vendors/api/save-subscription/ HTTP/1.1" 200 47
+[2025-03-19 17:07:47,813] INFO django.server: "GET / HTTP/1.1" 200 5665
+[2025-03-19 17:07:48,093] INFO django.server: "GET /static/orders/css/styles.css HTTP/1.1" 200 2583
+[2025-03-19 17:07:48,204] INFO django.server: "GET /static/orders/images/image1.jpg HTTP/1.1" 200 163361
+[2025-03-19 17:07:48,210] INFO django.server: "GET /static/orders/images/logo.png HTTP/1.1" 200 12329
+[2025-03-19 17:07:48,207] INFO django.server: "GET /static/orders/images/image4.jpg HTTP/1.1" 200 165098
+[2025-03-19 17:07:48,231] INFO django.server: "GET /static/orders/js/scripts.js HTTP/1.1" 200 16733
+[2025-03-19 17:07:48,238] INFO django.server: "GET /static/orders/images/image6.jpg HTTP/1.1" 200 139100
+[2025-03-19 17:07:48,240] INFO django.server: "GET /static/orders/images/image8.jpg HTTP/1.1" 200 170748
+[2025-03-19 17:07:48,244] INFO django.server: "GET /static/orders/images/image7.jpg HTTP/1.1" 200 142191
+[2025-03-19 17:07:48,245] INFO django.server: "GET /static/orders/images/image5.jpg HTTP/1.1" 200 240252
+[2025-03-19 17:07:48,246] INFO django.server: "GET /static/orders/files/menu.jpg HTTP/1.1" 200 291842
+[2025-03-19 17:07:48,246] INFO django.server: "GET /static/orders/images/image2.jpg HTTP/1.1" 200 190249
+[2025-03-19 17:07:48,247] INFO django.server: "GET /static/orders/images/image3.jpg HTTP/1.1" 200 206171
+[2025-03-19 17:07:50,279] INFO django.server: "GET /service-worker.js HTTP/1.1" 200 2940
+[2025-03-19 17:07:59,891] INFO django.server: "GET /check-status/?token_no=1020 HTTP/1.1" 201 254
+[2025-03-19 17:08:03,214] INFO django.server: "POST /vendors/api/save-subscription/ HTTP/1.1" 200 47
+[2025-03-19 17:08:07,293] INFO vendors.utils: Sending push notification with payload: {'title': 'Order Update', 'body': 'Your order 1020 is now ready.', 'token_no': '1020', 'status': 'ready', 'counter_no': '3'} to subscription: {'endpoint': 'https://fcm.googleapis.com/fcm/send/f6lzPmANAjU:APA91bHfr09yMVQczc1P4NmqH7B_0HKs99z-7jbG0w-nuOuwYft-AgPpmebGoTwKkzjHhVmjpEkhUKCLwUYzKGjqZAr4cslMtDlaiARWRUyskzdse3HF7morpqQ48SB20Hh1uNyG1CtF', 'keys': {'p256dh': 'BP-5Ojz_ZJXR92eEJxcwq8L5ujCdByq0MYNSMggH2DVFPQcbNRyUqxSiy2WeLzShhL93xsFuWzjUIVpFOEcw6nM', 'auth': 'L2t83ODXOPSzd7J0nAix1A'}}
+[2025-03-19 17:08:07,534] INFO vendors.utils: Push notification sent successfully.
+[2025-03-19 17:08:07,536] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 69
+[2025-03-19 17:08:08,046] INFO django.server: "GET /static/orders/audio/0112.mp3 HTTP/1.1" 200 29228
+[2025-03-19 17:08:25,789] INFO django.server: "GET /check-status/?token_no=1021 HTTP/1.1" 201 254
+[2025-03-19 17:08:30,898] INFO django.server: "POST /vendors/api/save-subscription/ HTTP/1.1" 200 47
+[2025-03-19 17:08:35,878] INFO vendors.utils: Sending push notification with payload: {'title': 'Order Update', 'body': 'Your order 1021 is now ready.', 'token_no': '1021', 'status': 'ready', 'counter_no': '3'} to subscription: {'endpoint': 'https://fcm.googleapis.com/fcm/send/eex2-s5Dvac:APA91bExJvG9olxGDjtUNiR652QOwocyMzowb35PcEx79RhEflmU04zvY-g2yR6vybveV224GMOknh0su8PYbFKz98GBJwXzgvb6fG1ZE7EEKENlYtGXdbZuqBuODw8bDHmdpCt_x8kz', 'keys': {'p256dh': 'BONQMv2S_tc95emRpT99Siiww--Q1d7KYY8ird7wHz5gcZZBQ9L75U4-gKWR_gC5D7p_QQL3nV5bQVIQmUhGPrU', 'auth': 'f85UrvR-rOnmaczZ0wVl_g'}}
+[2025-03-19 17:08:36,465] INFO vendors.utils: Push notification sent successfully.
+[2025-03-19 17:08:36,466] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 69
+[2025-03-19 17:08:56,518] INFO vendors.utils: Sending push notification with payload: {'title': 'Order Update', 'body': 'Your order 1020 is now ready.', 'token_no': '1020', 'status': 'ready', 'counter_no': '3'} to subscription: {'endpoint': 'https://fcm.googleapis.com/fcm/send/eex2-s5Dvac:APA91bExJvG9olxGDjtUNiR652QOwocyMzowb35PcEx79RhEflmU04zvY-g2yR6vybveV224GMOknh0su8PYbFKz98GBJwXzgvb6fG1ZE7EEKENlYtGXdbZuqBuODw8bDHmdpCt_x8kz', 'keys': {'p256dh': 'BONQMv2S_tc95emRpT99Siiww--Q1d7KYY8ird7wHz5gcZZBQ9L75U4-gKWR_gC5D7p_QQL3nV5bQVIQmUhGPrU', 'auth': 'f85UrvR-rOnmaczZ0wVl_g'}}
+[2025-03-19 17:08:57,115] INFO vendors.utils: Push notification sent successfully.
+[2025-03-19 17:08:57,117] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 69
+[2025-03-19 17:09:44,032] INFO vendors.utils: Sending push notification with payload: {'title': 'Order Update', 'body': 'Your order 1020 is now ready.', 'token_no': '1020', 'status': 'ready', 'counter_no': '3'} to subscription: {'endpoint': 'https://fcm.googleapis.com/fcm/send/eex2-s5Dvac:APA91bExJvG9olxGDjtUNiR652QOwocyMzowb35PcEx79RhEflmU04zvY-g2yR6vybveV224GMOknh0su8PYbFKz98GBJwXzgvb6fG1ZE7EEKENlYtGXdbZuqBuODw8bDHmdpCt_x8kz', 'keys': {'p256dh': 'BONQMv2S_tc95emRpT99Siiww--Q1d7KYY8ird7wHz5gcZZBQ9L75U4-gKWR_gC5D7p_QQL3nV5bQVIQmUhGPrU', 'auth': 'f85UrvR-rOnmaczZ0wVl_g'}}
+[2025-03-19 17:09:44,620] INFO vendors.utils: Push notification sent successfully.
+[2025-03-19 17:09:44,622] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 69
+[2025-03-19 17:09:53,574] INFO django.server: "GET / HTTP/1.1" 200 5665
+[2025-03-19 17:09:54,401] INFO django.server: "GET /static/orders/js/scripts.js HTTP/1.1" 304 0
+[2025-03-19 17:09:55,031] WARNING django.request: Not Found: /favicon.ico
+[2025-03-19 17:09:55,032] WARNING django.server: "GET /favicon.ico HTTP/1.1" 404 3254
+[2025-03-19 17:09:56,342] INFO django.server: "GET /service-worker.js HTTP/1.1" 200 2940
+[2025-03-19 17:10:05,137] INFO django.server: "GET /check-status/?token_no=1021 HTTP/1.1" 200 114
+[2025-03-19 17:10:09,546] INFO django.server: "POST /vendors/api/save-subscription/ HTTP/1.1" 200 47
+[2025-03-19 17:10:11,640] INFO django.server: "GET /check-status/?token_no=1020 HTTP/1.1" 200 114
+[2025-03-19 17:10:24,396] INFO django.server: "GET /check-status/?token_no=1021 HTTP/1.1" 200 114
+[2025-03-19 17:10:25,077] INFO django.server: "POST /vendors/api/save-subscription/ HTTP/1.1" 200 47
+[2025-03-19 17:10:27,224] INFO django.server: "POST /vendors/api/save-subscription/ HTTP/1.1" 200 47
+[2025-03-19 17:10:34,459] INFO vendors.utils: Sending push notification with payload: {'title': 'Order Update', 'body': 'Your order 1020 is now ready.', 'token_no': '1020', 'status': 'ready', 'counter_no': '3'} to subscription: {'endpoint': 'https://fcm.googleapis.com/fcm/send/extFxpiGisg:APA91bEQcud9zDdzDBM-dLJZ0ZpxZtdjD07QwBneNs5kay8wSsfA9bk-zZZjlcLbLS6gdpN-kHUv-bqAeXcTrhBkrxRWmGUZWR-48GB_Pk3IWddGhTcBONiqrAQDC5okd3qUFtVRoxh9', 'keys': {'p256dh': 'BPlx1VMhw-3_DVEEsADuXKTT8CHtnp0xP2SZulBU_OdxHvCDDdmm5PZldKGPIYvPxYZEPGL2-OVkDz56LW_C1Ng', 'auth': '_YKjBmFy6non7oRFdCdbLA'}}
+[2025-03-19 17:10:35,054] INFO vendors.utils: Push notification sent successfully.
+[2025-03-19 17:10:35,056] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 69
+[2025-03-19 17:10:45,893] INFO vendors.utils: Sending push notification with payload: {'title': 'Order Update', 'body': 'Your order 1020 is now ready.', 'token_no': '1020', 'status': 'ready', 'counter_no': '3'} to subscription: {'endpoint': 'https://fcm.googleapis.com/fcm/send/extFxpiGisg:APA91bEQcud9zDdzDBM-dLJZ0ZpxZtdjD07QwBneNs5kay8wSsfA9bk-zZZjlcLbLS6gdpN-kHUv-bqAeXcTrhBkrxRWmGUZWR-48GB_Pk3IWddGhTcBONiqrAQDC5okd3qUFtVRoxh9', 'keys': {'p256dh': 'BPlx1VMhw-3_DVEEsADuXKTT8CHtnp0xP2SZulBU_OdxHvCDDdmm5PZldKGPIYvPxYZEPGL2-OVkDz56LW_C1Ng', 'auth': '_YKjBmFy6non7oRFdCdbLA'}}
+[2025-03-19 17:10:46,473] INFO vendors.utils: Push notification sent successfully.
+[2025-03-19 17:10:46,475] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 69
+[2025-03-19 17:11:11,311] INFO vendors.utils: Sending push notification with payload: {'title': 'Order Update', 'body': 'Your order 1020 is now ready.', 'token_no': '1020', 'status': 'ready', 'counter_no': '3'} to subscription: {'endpoint': 'https://fcm.googleapis.com/fcm/send/extFxpiGisg:APA91bEQcud9zDdzDBM-dLJZ0ZpxZtdjD07QwBneNs5kay8wSsfA9bk-zZZjlcLbLS6gdpN-kHUv-bqAeXcTrhBkrxRWmGUZWR-48GB_Pk3IWddGhTcBONiqrAQDC5okd3qUFtVRoxh9', 'keys': {'p256dh': 'BPlx1VMhw-3_DVEEsADuXKTT8CHtnp0xP2SZulBU_OdxHvCDDdmm5PZldKGPIYvPxYZEPGL2-OVkDz56LW_C1Ng', 'auth': '_YKjBmFy6non7oRFdCdbLA'}}
+[2025-03-19 17:11:11,897] INFO vendors.utils: Push notification sent successfully.
+[2025-03-19 17:11:11,899] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 69
+[2025-03-19 17:21:17,191] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-19 17:21:24,412] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66

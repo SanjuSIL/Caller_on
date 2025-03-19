@@ -144,7 +144,6 @@ document.addEventListener('DOMContentLoaded', async function() {
                 console.error("No service worker found. Registering...");
                 registration = await navigator.serviceWorker.register('/service-worker.js', { scope: '/' });
             }
-            console.log("Service Worker ready:", registration);
             console.log(navigator.serviceWorker.ready)
 
             // Check if the page is controlled by the service worker.
@@ -153,7 +152,6 @@ document.addEventListener('DOMContentLoaded', async function() {
                 // Optionally reload to let SW take control:
                 window.location.reload();
             }
-            console.log(navigator.serviceWorker.controller)
 
             // Try to retrieve an existing push subscription.
             let subscription = await registration.pushManager.getSubscription();
@@ -218,6 +216,37 @@ document.addEventListener('DOMContentLoaded', async function() {
     console.log("Notification API supported:", "Notification" in window);
 
     if (navigator.serviceWorker) {
+        // Update the service worker with the current page URL on load.
+        // Listen for messages from the service worker
+        navigator.serviceWorker.addEventListener("message", (event) => {
+            if (event.data && event.data.type === "OPEN_CHAT") {
+            console.log("Received OPEN_CHAT message:", event.data.payload);
+            // Call a function to display or refresh the chat view
+            showChatWindow(event.data.payload);   
+            }
+        });
+        
+        // Optionally, update the service worker with the current page URL if needed
+        navigator.serviceWorker.ready.then((registration) => {
+            if (registration.active) {
+            registration.active.postMessage({
+                type: "UPDATE_LAST_PAGE",
+                url: window.location.href,
+            });
+            }
+        });
+
+        // Optionally, you can listen for navigation events (if using a SPA or similar)
+        window.addEventListener("popstate", () => {
+            navigator.serviceWorker.ready.then((registration) => {
+            if (registration.active) {
+                registration.active.postMessage({
+                type: "UPDATE_LAST_PAGE",
+                url: window.location.href,
+                });
+            }
+            });
+        });
         navigator.serviceWorker.addEventListener('message', (event) => {
             if (event.data && event.data.type === 'PUSH_STATUS_UPDATE') {
                 const pushData = event.data.payload;
@@ -321,4 +350,35 @@ document.addEventListener('DOMContentLoaded', async function() {
                 appendMessage("Error fetching order status. Please try again.", 'server');
             });
     }
+
+    function showChatWindow(data) {
+        // Make sure the chat container is visible.
+        // (If you’re hiding it by default using CSS, e.g., display: none,
+        //  then set it to block or flex as required.)
+        window.onload = function () {
+            document.querySelector('.chat-container').style.display = "none";
+            setTimeout(() => {
+                document.querySelector('.chat-container').style.display = "block";
+            }, 100);
+        };
+        setTimeout(() => {
+            chatContainer.scrollTop = chatContainer.scrollHeight;
+          }, 50);
+        // Optionally, if the payload contains a token number,
+        // pre-populate the chat input or perform any additional logic.
+        if (data && data.token_no) {
+
+            chatInput.value = data.token_no;
+            chatInput.value = '';
+            // If you want to refresh the chat messages based on token,
+            // you could call your fetch function here, e.g.:
+            // fetchOrderStatusOnce(data.token_no);
+        }
+        
+        // Optionally, you could scroll to the chat container if needed.
+        chatContainer.scrollIntoView({ behavior: "smooth" });
+    
+        console.log("Chat window is now open or refreshed.", data);
+    }
+    
 });
