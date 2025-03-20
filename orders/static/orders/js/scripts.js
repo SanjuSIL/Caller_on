@@ -7,14 +7,29 @@ document.addEventListener('DOMContentLoaded', async function() {
     const menuButton = document.getElementById('menu-button');
 
     let notificationsEnabled = true;
+    const isAndroid = /Android/i.test(navigator.userAgent);
+    console.log("Android device detected:", isAndroid);
+    if (isAndroid) {
+        // Add a bit of extra bottom padding to .branding or .container-wrapper
+        document.querySelector('.container-wrapper')
+                .style.paddingBottom = '8px';
+    }
 
     // Adjust viewport for mobile devices
     function setVh() {
+        // 1% of the window's *innerHeight*
         let vh = window.innerHeight * 0.01;
+        // Set the value in a CSS variable
         document.documentElement.style.setProperty('--vh', `${vh}px`);
-    }
-    window.addEventListener('resize', setVh);
+      }
+      
+    // Call the function once to set the initial value
     setVh();
+    
+    // Recompute on resize/orientation changes
+    window.addEventListener('resize', setVh);
+    window.addEventListener('orientationchange', setVh);
+      
     // 1) Try the official Brave check
     let braveDetected = false;
     if (navigator.brave && typeof navigator.brave.isBrave === 'function') {

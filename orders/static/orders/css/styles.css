@@ -25,21 +25,23 @@ body {
 }
 
 .container-wrapper {
-    height: calc(var(--vh, 1vh) * 100);
+    /* Use the dynamic vh value and account for any safe-area inset at the bottom */
+    height: calc(var(--vh) * 100 - env(safe-area-inset-bottom));
+    padding-bottom: env(safe-area-inset-bottom);
     overflow-y: hidden;
-}
-
+  }
+  
 
 
 
 .header {
     background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
     border-bottom: 3px solid var(--accent-color);
-    height: 8vh;
+    height: 9vh;
 }
 
 .image-tiles {
-    height: 22vh;
+    height: 18vh;
     background: var(--light-bg);
     overflow-x: auto;
 }
@@ -67,7 +69,7 @@ body {
     overflow-x: scroll;
 }
 .chat-response {
-    height: 36vh;
+    height: 48vh;
     background: white;
     border-bottom: 2px solid #dee2e6;
     display: flex;
@@ -110,7 +112,7 @@ body {
 .branding {
     background: var(--primary-color);
     color: white;
-    height: 5%;
+    height: 7vh;
 }
 .menu-button {
     background: var(--secondary-color);
