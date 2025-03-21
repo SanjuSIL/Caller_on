@@ -2056,3 +2056,116 @@ Traceback (most recent call last):
 django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '124.124.79.123:80'. You may need to add '124.124.79.123' to ALLOWED_HOSTS.
 [2025-03-21 12:35:31,498] WARNING django.request: Bad Request: /
 [2025-03-21 12:35:31,499] WARNING django.server: "GET / HTTP/1.1" 400 64561
+[2025-03-21 14:16:37,918] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2025-03-21 14:16:47,938] ERROR django.security.DisallowedHost: Invalid HTTP_HOST header: '124.124.79.123:80'. You may need to add '124.124.79.123' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '124.124.79.123:80'. You may need to add '124.124.79.123' to ALLOWED_HOSTS.
+[2025-03-21 14:16:47,987] WARNING django.request: Bad Request: /
+[2025-03-21 14:16:47,988] WARNING django.server: "GET / HTTP/1.1" 400 64561
+[2025-03-21 14:17:21,222] ERROR django.security.DisallowedHost: Invalid HTTP_HOST header: '124.124.79.123:80'. You may need to add '124.124.79.123' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '124.124.79.123:80'. You may need to add '124.124.79.123' to ALLOWED_HOSTS.
+[2025-03-21 14:17:21,263] WARNING django.request: Bad Request: /
+[2025-03-21 14:17:21,263] WARNING django.server: "GET / HTTP/1.1" 400 64191
+[2025-03-21 14:18:01,676] ERROR django.security.DisallowedHost: Invalid HTTP_HOST header: '124.124.79.123:80'. You may need to add '124.124.79.123' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '124.124.79.123:80'. You may need to add '124.124.79.123' to ALLOWED_HOSTS.
+[2025-03-21 14:18:01,720] WARNING django.request: Bad Request: /
+[2025-03-21 14:18:01,721] WARNING django.server: "GET / HTTP/1.1" 400 64561
+[2025-03-21 14:19:38,519] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:19:38,555] INFO django.server: "GET /static/orders/css/styles.css HTTP/1.1" 200 3038
+[2025-03-21 14:19:38,579] INFO django.server: "GET /static/orders/js/scripts.js HTTP/1.1" 200 17913
+[2025-03-21 14:19:38,694] WARNING django.request: Not Found: /favicon.ico
+[2025-03-21 14:19:38,695] WARNING django.server: "GET /favicon.ico HTTP/1.1" 404 3244
+[2025-03-21 14:19:46,657] ERROR django.security.DisallowedHost: Invalid HTTP_HOST header: '124.124.79.123:80'. You may need to add '124.124.79.123' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '124.124.79.123:80'. You may need to add '124.124.79.123' to ALLOWED_HOSTS.
+[2025-03-21 14:19:46,702] WARNING django.request: Bad Request: /
+[2025-03-21 14:19:46,702] WARNING django.server: "GET / HTTP/1.1" 400 64561
+[2025-03-21 14:19:54,369] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:20:35,407] ERROR django.security.DisallowedHost: Invalid HTTP_HOST header: '124.124.79.123:80'. You may need to add '124.124.79.123' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '124.124.79.123:80'. You may need to add '124.124.79.123' to ALLOWED_HOSTS.
+[2025-03-21 14:20:35,452] WARNING django.request: Bad Request: /
+[2025-03-21 14:20:35,453] WARNING django.server: "GET / HTTP/1.1" 400 64561
+[2025-03-21 14:20:35,453] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:20:36,092] INFO django.server: "GET /static/orders/js/scripts.js HTTP/1.1" 304 0
+[2025-03-21 14:20:36,095] INFO django.server: "GET /static/orders/css/styles.css HTTP/1.1" 304 0
+[2025-03-21 14:21:01,694] INFO django.utils.autoreload: /home/silpc065/SANJU/Caller_on/caller_on/settings.py changed, reloading.
+[2025-03-21 14:21:02,128] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2025-03-21 14:21:03,596] INFO django.utils.autoreload: /home/silpc065/SANJU/Caller_on/caller_on/settings.py changed, reloading.
+[2025-03-21 14:21:04,023] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2025-03-21 14:21:05,458] INFO django.utils.autoreload: /home/silpc065/SANJU/Caller_on/caller_on/settings.py changed, reloading.
+[2025-03-21 14:21:05,860] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2025-03-21 14:21:08,294] INFO django.utils.autoreload: /home/silpc065/SANJU/Caller_on/caller_on/settings.py changed, reloading.
+[2025-03-21 14:21:08,706] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2025-03-21 14:21:12,644] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:21:13,446] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:21:13,895] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:21:14,078] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:21:14,259] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:21:14,433] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:21:14,567] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:21:15,008] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:21:15,232] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:21:15,408] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:21:15,590] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:21:15,753] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:21:15,928] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:21:16,079] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:21:16,295] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:21:16,474] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:21:21,225] WARNING django.request: Not Found: /_ignition/execute-solution
+[2025-03-21 14:21:21,226] WARNING django.server: "GET /_ignition/execute-solution HTTP/1.1" 404 3279
+[2025-03-21 14:21:49,382] WARNING django.server: "GET /static/orders/manifest.json HTTP/1.1" 404 2000
+[2025-03-21 14:22:36,514] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:24:08,515] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:24:27,369] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:24:28,382] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:24:28,566] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:24:28,747] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:24:28,939] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:24:29,177] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:24:35,290] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:24:38,801] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:25:13,957] INFO django.server: "GET / HTTP/1.1" 200 5630
