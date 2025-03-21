@@ -78,6 +78,15 @@ body {
     overflow-y: auto;
 }
 
+/* .message-bubble {
+    max-width: 75%;
+    padding: 12px 18px;
+    border-radius: 15px;
+    margin: 8px 0;
+    word-wrap: break-word;
+    display: inline-block;
+    clear: both;
+} */
 .message-bubble {
     max-width: 75%;
     padding: 12px 18px;
@@ -86,7 +95,26 @@ body {
     word-wrap: break-word;
     display: inline-block;
     clear: both;
-}
+  }
+  
+  .message-row {
+    display: flex;
+    justify-content: space-between;
+    align-items:last baseline;
+  }
+  
+  .message-content {
+    font-size: 1rem;
+    /* etc. */
+  }
+  
+  .message-timestamp {
+    font-size: 0.6rem;
+    opacity: 0.8;
+    white-space: nowrap;
+    margin-left: 8px;
+  }
+  
 
 .message-bubble.server {
     background: var(--secondary-color);
