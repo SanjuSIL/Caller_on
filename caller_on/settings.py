@@ -78,23 +78,11 @@ LOGGING = {
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-ALLOWED_HOSTS = ['192.168.0.197','192.168.0.33', 'feline-clever-mutually.ngrok-free.app', 'random-id.ngrok-free.app','0.0.0.0','127.0.0.1','localhost','webtest.softlandindia.co.in']
-# ALLOWED_HOSTS = ['*']
+
+# ALLOWED_HOSTS = ['192.168.0.197','192.168.0.33', 'feline-clever-mutually.ngrok-free.app', 'random-id.ngrok-free.app','0.0.0.0','127.0.0.1','localhost']
+ALLOWED_HOSTS = ['*']
 CORS_ALLOW_ALL_ORIGINS = True
 
-# settings.py
-
-# Redirect HTTP to HTTPS
-SECURE_SSL_REDIRECT = True
-
-# Tell Django to trust the proxy header that indicates a secure request.
-# This is important if the admin's reverse proxy forwards requests as HTTP
-# but sets the header 'X-Forwarded-Proto' to 'https'.
-SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
-
-# Optionally, ensure cookies are only sent over HTTPS:
-SESSION_COOKIE_SECURE = True
-CSRF_COOKIE_SECURE = True
 
 # Application definition
 

@@ -311,24 +311,9 @@ document.addEventListener('DOMContentLoaded', async function() {
     function appendMessage(text, sender) {
         const messageDiv = document.createElement('div');
         messageDiv.classList.add('message-bubble', sender);
-
-        // Get current time in HH:MM format
-        const now = new Date();
-        const timeStamp = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit',hour12: true});
-
-        // Create message content
-        messageDiv.innerHTML = `
-        <div class="message-row">
-            <div class="message-content">${text}</div>
-            <div class="message-timestamp">
-            ${timeStamp}
-            <span class="message-check">&#10003;</span>
-            </div>
-        </div>
-        `;
-
+        messageDiv.innerHTML = text;
         chatContainer.appendChild(messageDiv);
-        chatContainer.scrollTop = chatContainer.scrollHeight; // Auto-scroll to bottom
+        chatContainer.scrollTop = chatContainer.scrollHeight;
     }
 
     // Send button logic
