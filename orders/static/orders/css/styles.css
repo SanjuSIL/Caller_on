@@ -86,7 +86,26 @@ body {
     word-wrap: break-word;
     display: inline-block;
     clear: both;
-}
+  }
+  
+  .message-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .message-content {
+    font-size: 1rem;
+    /* etc. */
+  }
+  
+  .message-timestamp {
+    font-size: 0.8rem;
+    opacity: 0.8;
+    white-space: nowrap;
+    margin-left: 8px;
+  }
+  
 
 .message-bubble.server {
     background: var(--secondary-color);
