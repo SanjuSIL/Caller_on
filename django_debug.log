@@ -1683,3 +1683,229 @@ django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'f0d7-202-88-23
 [2025-03-20 12:24:16,995] INFO django.server: "GET /static/orders/css/styles.css HTTP/1.1" 200 2747
 [2025-03-20 12:24:17,010] INFO django.server: "GET /static/orders/js/scripts.js HTTP/1.1" 200 17322
 [2025-03-20 12:24:19,346] INFO django.server: "GET /service-worker.js HTTP/1.1" 200 2940
+[2025-03-20 12:58:30,135] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2025-03-20 15:42:16,037] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2025-03-20 15:46:43,849] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2025-03-20 15:46:49,157] INFO django.server: "HEAD / HTTP/1.0" 200 0
+[2025-03-20 15:48:26,877] INFO django.utils.autoreload: /home/silpc065/SANJU/Caller_on/caller_on/settings.py changed, reloading.
+[2025-03-20 15:48:28,155] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2025-03-20 15:48:40,318] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2025-03-20 15:48:45,340] ERROR django.security.DisallowedHost: Invalid HTTP_HOST header: '192.168.0.197'. You may need to add '192.168.0.197' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/silpc065/SANJU/Caller_on/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/silpc065/SANJU/Caller_on/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+  File "/home/silpc065/SANJU/Caller_on/venv/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/silpc065/SANJU/Caller_on/venv/lib/python3.10/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '192.168.0.197'. You may need to add '192.168.0.197' to ALLOWED_HOSTS.
+[2025-03-20 15:48:45,434] WARNING django.request: Bad Request: /
+[2025-03-20 15:48:45,435] WARNING django.server: "HEAD / HTTP/1.0" 400 0
+[2025-03-20 16:00:09,899] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2025-03-20 16:04:21,638] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2025-03-20 16:06:44,102] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2025-03-20 16:06:58,200] ERROR django.security.DisallowedHost: Invalid HTTP_HOST header: '192.168.0.197:8000'. You may need to add '192.168.0.197' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/silpc065/SANJU/Caller_on/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/silpc065/SANJU/Caller_on/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+  File "/home/silpc065/SANJU/Caller_on/venv/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/silpc065/SANJU/Caller_on/venv/lib/python3.10/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '192.168.0.197:8000'. You may need to add '192.168.0.197' to ALLOWED_HOSTS.
+[2025-03-20 16:06:58,301] WARNING django.request: Bad Request: /
+[2025-03-20 16:06:58,302] WARNING django.server: "GET / HTTP/1.1" 400 76473
+[2025-03-20 16:06:58,563] ERROR django.security.DisallowedHost: Invalid HTTP_HOST header: '192.168.0.197:8000'. You may need to add '192.168.0.197' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/silpc065/SANJU/Caller_on/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/silpc065/SANJU/Caller_on/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+  File "/home/silpc065/SANJU/Caller_on/venv/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/silpc065/SANJU/Caller_on/venv/lib/python3.10/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '192.168.0.197:8000'. You may need to add '192.168.0.197' to ALLOWED_HOSTS.
+[2025-03-20 16:06:58,656] WARNING django.request: Bad Request: /favicon.ico
+[2025-03-20 16:06:58,659] WARNING django.server: "GET /favicon.ico HTTP/1.1" 400 76509
+[2025-03-20 16:07:13,805] INFO django.utils.autoreload: /home/silpc065/SANJU/Caller_on/caller_on/settings.py changed, reloading.
+[2025-03-20 16:07:15,144] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2025-03-20 16:07:20,838] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-20 16:07:20,976] INFO django.server: "GET /static/orders/css/styles.css HTTP/1.1" 200 2747
+[2025-03-20 16:07:21,014] INFO django.server: "GET /static/orders/js/scripts.js HTTP/1.1" 200 17322
+[2025-03-20 16:07:22,230] INFO django.server: "GET /static/orders/files/menu.jpg HTTP/1.1" 200 291842
+[2025-03-20 16:07:22,268] INFO django.server: "GET /static/orders/images/logo.png HTTP/1.1" 200 12329
+[2025-03-20 16:07:22,286] INFO django.server: "GET /static/orders/images/image6.jpg HTTP/1.1" 200 139100
+[2025-03-20 16:07:22,301] INFO django.server: "GET /static/orders/images/image8.jpg HTTP/1.1" 200 170748
+[2025-03-20 16:07:22,321] INFO django.server: "GET /static/orders/images/image3.jpg HTTP/1.1" 200 206171
+[2025-03-20 16:07:22,322] INFO django.server: "GET /static/orders/images/image1.jpg HTTP/1.1" 200 163361
+[2025-03-20 16:07:22,326] INFO django.server: "GET /static/orders/images/image7.jpg HTTP/1.1" 200 142191
+[2025-03-20 16:07:22,328] INFO django.server: "GET /static/orders/images/image5.jpg HTTP/1.1" 200 240252
+[2025-03-20 16:07:22,330] INFO django.server: "GET /static/orders/images/image2.jpg HTTP/1.1" 200 190249
+[2025-03-20 16:07:22,334] INFO django.server: "GET /static/orders/images/image4.jpg HTTP/1.1" 200 165098
+[2025-03-20 16:08:12,816] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-20 16:08:12,892] INFO django.server: "GET /static/orders/css/styles.css HTTP/1.1" 200 2747
+[2025-03-20 16:08:12,896] INFO django.server: "GET /static/orders/images/logo.png HTTP/1.1" 200 12329
+[2025-03-20 16:08:12,900] INFO django.server: "GET /static/orders/images/image1.jpg HTTP/1.1" 200 163361
+[2025-03-20 16:08:12,924] INFO django.server: "GET /static/orders/images/image2.jpg HTTP/1.1" 200 190249
+[2025-03-20 16:08:12,947] INFO django.server: "GET /static/orders/images/image3.jpg HTTP/1.1" 200 206171
+[2025-03-20 16:08:12,971] INFO django.server: "GET /static/orders/images/image4.jpg HTTP/1.1" 200 165098
+[2025-03-20 16:08:13,171] INFO django.server: "GET /static/orders/js/scripts.js HTTP/1.1" 200 17322
+[2025-03-20 16:08:13,173] INFO django.server: "GET /static/orders/images/image5.jpg HTTP/1.1" 200 240252
+[2025-03-20 16:08:13,207] INFO django.server: "GET /static/orders/images/image6.jpg HTTP/1.1" 200 139100
+[2025-03-20 16:08:13,216] INFO django.server: "GET /static/orders/images/image8.jpg HTTP/1.1" 200 170748
+[2025-03-20 16:08:13,226] INFO django.server: "GET /static/orders/files/menu.jpg HTTP/1.1" 200 291842
+[2025-03-20 16:08:13,234] INFO django.server: "GET /static/orders/images/image7.jpg HTTP/1.1" 200 142191
+[2025-03-20 16:08:13,486] WARNING django.request: Not Found: /favicon.ico
+[2025-03-20 16:08:13,488] WARNING django.server: "GET /favicon.ico HTTP/1.1" 404 3235
+[2025-03-20 16:08:29,199] INFO django.server: "HEAD / HTTP/1.0" 200 0
+[2025-03-20 16:09:43,049] INFO django.server: "HEAD / HTTP/1.0" 200 0
+[2025-03-20 16:14:41,477] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-20 16:14:41,613] INFO django.server: "GET /static/orders/js/scripts.js HTTP/1.1" 200 17322
+[2025-03-20 16:21:13,919] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2025-03-20 16:28:55,886] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2025-03-20 16:34:49,468] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2025-03-20 16:34:54,558] INFO django.server: "HEAD / HTTP/1.0" 200 0
+[2025-03-20 16:35:04,832] INFO django.server: "HEAD / HTTP/1.0" 200 0
+[2025-03-20 16:35:35,973] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-20 16:35:36,192] INFO django.server: "GET /static/orders/css/styles.css HTTP/1.1" 200 2747
+[2025-03-20 16:35:36,213] INFO django.server: "GET /static/orders/js/scripts.js HTTP/1.1" 200 17322
+[2025-03-20 16:35:37,437] INFO django.server: "GET /static/orders/images/image5.jpg HTTP/1.1" 200 240252
+[2025-03-20 16:35:37,449] INFO django.server: "GET /static/orders/images/image3.jpg HTTP/1.1" 200 206171
+[2025-03-20 16:35:37,474] INFO django.server: "GET /static/orders/images/image7.jpg HTTP/1.1" 200 142191
+[2025-03-20 16:35:37,475] INFO django.server: "GET /static/orders/images/image6.jpg HTTP/1.1" 200 139100
+[2025-03-20 16:35:37,491] INFO django.server: "GET /static/orders/images/image4.jpg HTTP/1.1" 200 165098
+[2025-03-20 16:35:37,477] INFO django.server: "GET /static/orders/images/image8.jpg HTTP/1.1" 200 170748
+[2025-03-20 16:35:37,499] INFO django.server: "GET /static/orders/files/menu.jpg HTTP/1.1" 200 291842
+[2025-03-20 16:35:37,505] INFO django.server: "GET /static/orders/images/image1.jpg HTTP/1.1" 200 163361
+[2025-03-20 16:35:37,503] INFO django.server: "GET /static/orders/images/image2.jpg HTTP/1.1" 200 190249
+[2025-03-20 16:35:37,510] INFO django.server: "GET /static/orders/images/logo.png HTTP/1.1" 200 12329
+[2025-03-20 16:35:38,045] WARNING django.request: Not Found: /favicon.ico
+[2025-03-20 16:35:38,047] WARNING django.server: "GET /favicon.ico HTTP/1.1" 404 3231
+[2025-03-20 16:35:38,121] INFO django.server: "GET /service-worker.js HTTP/1.1" 200 2940
+[2025-03-20 16:46:03,418] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2025-03-20 16:46:10,177] INFO django.server: "HEAD / HTTP/1.0" 200 0
+[2025-03-20 16:46:39,955] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-20 16:46:40,114] INFO django.server: "GET /static/orders/css/styles.css HTTP/1.1" 304 0
+[2025-03-20 16:46:40,142] INFO django.server: "GET /static/orders/js/scripts.js HTTP/1.1" 200 17322
+[2025-03-20 16:46:40,592] WARNING django.request: Not Found: /favicon.ico
+[2025-03-20 16:46:40,594] WARNING django.server: "GET /favicon.ico HTTP/1.1" 404 3235
+[2025-03-20 16:46:57,631] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-20 16:46:57,867] INFO django.server: "GET /static/orders/images/image5.jpg HTTP/1.1" 200 240252
+[2025-03-20 16:46:57,871] INFO django.server: - Broken pipe from ('127.0.0.1', 45174)
+[2025-03-20 16:46:57,875] INFO django.server: "GET /static/orders/images/image6.jpg HTTP/1.1" 200 139100
+[2025-03-20 16:46:58,708] INFO django.server: "GET /service-worker.js HTTP/1.1" 200 2940
+[2025-03-20 16:55:09,366] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 64
+[2025-03-20 17:09:52,300] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-20 17:09:59,516] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 66
+[2025-03-20 17:10:06,056] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 64
+[2025-03-20 17:13:08,143] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2025-03-20 17:13:17,897] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2025-03-20 17:13:31,196] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-20 17:13:31,430] INFO django.server: "GET /static/orders/css/styles.css HTTP/1.1" 200 2747
+[2025-03-20 17:13:31,436] INFO django.server: "GET /static/orders/images/image1.jpg HTTP/1.1" 200 163361
+[2025-03-20 17:13:31,437] INFO django.server: "GET /static/orders/images/logo.png HTTP/1.1" 200 12329
+[2025-03-20 17:13:31,466] INFO django.server: "GET /static/orders/images/image2.jpg HTTP/1.1" 200 190249
+[2025-03-20 17:13:31,488] INFO django.server: "GET /static/orders/images/image3.jpg HTTP/1.1" 200 206171
+[2025-03-20 17:13:31,490] INFO django.server: "GET /static/orders/js/scripts.js HTTP/1.1" 200 17322
+[2025-03-20 17:13:31,491] INFO django.server: "GET /static/orders/images/image4.jpg HTTP/1.1" 200 165098
+[2025-03-20 17:13:31,560] INFO django.server: "GET /static/orders/images/image7.jpg HTTP/1.1" 200 142191
+[2025-03-20 17:13:31,563] INFO django.server: "GET /static/orders/images/image5.jpg HTTP/1.1" 200 240252
+[2025-03-20 17:13:31,562] INFO django.server: "GET /static/orders/images/image6.jpg HTTP/1.1" 200 139100
+[2025-03-20 17:13:31,603] INFO django.server: "GET /static/orders/images/image8.jpg HTTP/1.1" 200 170748
+[2025-03-20 17:13:31,606] INFO django.server: "GET /static/orders/files/menu.jpg HTTP/1.1" 200 291842
+[2025-03-20 17:13:34,826] WARNING django.request: Not Found: /favicon.ico
+[2025-03-20 17:13:34,827] WARNING django.server: "GET /favicon.ico HTTP/1.1" 404 3224
+[2025-03-20 17:13:52,144] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-20 17:13:52,269] INFO django.server: "GET /static/orders/css/styles.css HTTP/1.1" 200 2747
+[2025-03-20 17:13:52,291] INFO django.server: "GET /static/orders/js/scripts.js HTTP/1.1" 200 17322
+[2025-03-20 17:13:53,599] INFO django.server: "GET /static/orders/images/image5.jpg HTTP/1.1" 200 240252
+[2025-03-20 17:13:53,611] INFO django.server: "GET /static/orders/images/image6.jpg HTTP/1.1" 200 139100
+[2025-03-20 17:13:53,619] INFO django.server: "GET /static/orders/images/image7.jpg HTTP/1.1" 200 142191
+[2025-03-20 17:13:53,634] INFO django.server: "GET /static/orders/files/menu.jpg HTTP/1.1" 200 291842
+[2025-03-20 17:13:53,626] INFO django.server: "GET /static/orders/images/image3.jpg HTTP/1.1" 200 206171
+[2025-03-20 17:13:53,629] INFO django.server: "GET /static/orders/images/image4.jpg HTTP/1.1" 200 165098
+[2025-03-20 17:13:53,628] INFO django.server: "GET /static/orders/images/image8.jpg HTTP/1.1" 200 170748
+[2025-03-20 17:13:53,636] INFO django.server: "GET /static/orders/images/image2.jpg HTTP/1.1" 200 190249
+[2025-03-20 17:13:53,646] INFO django.server: "GET /static/orders/images/image1.jpg HTTP/1.1" 200 163361
+[2025-03-20 17:13:53,654] INFO django.server: "GET /static/orders/images/logo.png HTTP/1.1" 200 12329
+[2025-03-20 17:13:54,087] INFO django.server: "GET /service-worker.js HTTP/1.1" 200 2940
+[2025-03-20 17:14:40,217] INFO django.server: "HEAD / HTTP/1.1" 200 0
+[2025-03-20 17:15:57,637] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2025-03-20 17:23:34,380] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2025-03-20 17:24:03,582] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-20 17:24:03,765] WARNING django.request: Not Found: /favicon.ico
+[2025-03-20 17:24:04,573] INFO django.server: "GET /service-worker.js HTTP/1.1" 200 2940
+[2025-03-20 17:28:13,222] INFO vendors.utils: Sending push notification with payload: {'title': 'Order Update', 'body': 'Your order 1000 is now ready.', 'token_no': '1000', 'status': 'ready', 'counter_no': '3'} to subscription: {'endpoint': 'https://fcm.googleapis.com/fcm/send/e3sn-EsI9Eo:APA91bG7VUhcSRqQEd0ireUGtqosGN9dG_lEi0yhZuM6OPlTAE_bQDvGDu14wC9OBhL_bdC5lE9rCXVwh3Pkqqnmf8170BMU5h6zPKZYKEen_copJVMt6laIeOCpLWROYe4tFL-RuOc-', 'keys': {'p256dh': 'BBVoKF5fWhytDLslAmlKF3mCVhzPt6ICs51BgM9fq8qbuo44nQfP1Cu0zB9noQyDI5IMIUyEjShmRuZQLoNFyBA', 'auth': 'MzSQ37cMj01AdhbDG3CgMw'}}
+[2025-03-20 17:28:13,431] ERROR vendors.utils: Web push failed: WebPushException('Push failed: 410 Gone\nResponse body:push subscription has unsubscribed or expired.\n')
+[2025-03-20 17:28:13,433] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 69
+[2025-03-20 17:32:11,364] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-20 17:32:11,458] INFO django.server: "GET /static/orders/css/styles.css HTTP/1.1" 200 2747
+[2025-03-20 17:32:11,483] INFO django.server: "GET /static/orders/js/scripts.js HTTP/1.1" 200 17322
+[2025-03-20 17:32:12,690] INFO django.server: "GET /static/orders/images/logo.png HTTP/1.1" 200 12329
+[2025-03-20 17:32:12,693] INFO django.server: "GET /static/orders/images/image1.jpg HTTP/1.1" 200 163361
+[2025-03-20 17:32:12,745] INFO django.server: "GET /static/orders/images/image6.jpg HTTP/1.1" 200 139100
+[2025-03-20 17:32:12,745] INFO django.server: "GET /static/orders/images/image5.jpg HTTP/1.1" 200 240252
+[2025-03-20 17:32:12,746] INFO django.server: "GET /static/orders/images/image2.jpg HTTP/1.1" 200 190249
+[2025-03-20 17:32:12,749] INFO django.server: "GET /static/orders/images/image4.jpg HTTP/1.1" 200 165098
+[2025-03-20 17:32:12,750] INFO django.server: "GET /static/orders/images/image7.jpg HTTP/1.1" 200 142191
+[2025-03-20 17:32:12,751] INFO django.server: "GET /static/orders/images/image8.jpg HTTP/1.1" 200 170748
+[2025-03-20 17:32:12,756] INFO django.server: "GET /static/orders/files/menu.jpg HTTP/1.1" 200 291842
+[2025-03-20 17:32:12,758] INFO django.server: "GET /static/orders/images/image3.jpg HTTP/1.1" 200 206171
+[2025-03-20 17:32:15,186] INFO django.server: "GET /static/orders/images/logo.png HTTP/1.1" 200 12329
+[2025-03-20 17:32:15,433] WARNING django.request: Not Found: /favicon.ico
+[2025-03-20 17:32:15,434] WARNING django.server: "GET /favicon.ico HTTP/1.1" 404 3230
+[2025-03-20 17:34:41,495] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-20 17:34:41,559] INFO django.server: "GET /static/orders/images/logo.png HTTP/1.1" 200 12329
+[2025-03-20 17:34:41,563] INFO django.server: "GET /static/orders/css/styles.css HTTP/1.1" 200 2747
+[2025-03-20 17:34:41,581] INFO django.server: "GET /static/orders/images/image1.jpg HTTP/1.1" 200 163361
+[2025-03-20 17:34:41,590] INFO django.server: "GET /static/orders/images/image2.jpg HTTP/1.1" 200 190249
+[2025-03-20 17:34:41,606] INFO django.server: "GET /static/orders/images/image3.jpg HTTP/1.1" 200 206171
+[2025-03-20 17:34:41,622] INFO django.server: "GET /static/orders/js/scripts.js HTTP/1.1" 200 17322
+[2025-03-20 17:34:41,634] INFO django.server: "GET /static/orders/images/image4.jpg HTTP/1.1" 200 165098
+[2025-03-20 17:34:41,643] INFO django.server: "GET /static/orders/images/image6.jpg HTTP/1.1" 200 139100
+[2025-03-20 17:34:41,643] INFO django.server: "GET /static/orders/images/image5.jpg HTTP/1.1" 200 240252
+[2025-03-20 17:34:41,654] INFO django.server: "GET /static/orders/images/image7.jpg HTTP/1.1" 200 142191
+[2025-03-20 17:34:41,709] INFO django.server: "GET /static/orders/images/image8.jpg HTTP/1.1" 200 170748
+[2025-03-20 17:34:41,721] INFO django.server: "GET /static/orders/files/menu.jpg HTTP/1.1" 200 291842
+[2025-03-20 17:34:41,820] WARNING django.request: Not Found: /favicon.ico
+[2025-03-20 17:34:41,820] WARNING django.server: "GET /favicon.ico HTTP/1.1" 404 3230
+[2025-03-20 17:34:58,280] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-20 17:34:58,333] INFO django.server: "GET /static/orders/css/styles.css HTTP/1.1" 200 2747
+[2025-03-20 17:34:58,359] INFO django.server: "GET /static/orders/js/scripts.js HTTP/1.1" 200 17322
+[2025-03-20 17:34:59,709] INFO django.server: "GET /static/orders/images/image8.jpg HTTP/1.1" 200 170748
+[2025-03-20 17:34:59,742] INFO django.server: "GET /static/orders/images/image4.jpg HTTP/1.1" 200 165098
+[2025-03-20 17:34:59,743] INFO django.server: "GET /static/orders/images/logo.png HTTP/1.1" 200 12329
+[2025-03-20 17:34:59,747] INFO django.server: "GET /static/orders/files/menu.jpg HTTP/1.1" 200 291842
+[2025-03-20 17:34:59,757] INFO django.server: "GET /static/orders/images/image7.jpg HTTP/1.1" 200 142191
+[2025-03-20 17:34:59,757] INFO django.server: "GET /static/orders/images/image1.jpg HTTP/1.1" 200 163361
+[2025-03-20 17:34:59,759] INFO django.server: "GET /static/orders/images/image2.jpg HTTP/1.1" 200 190249
+[2025-03-20 17:34:59,766] INFO django.server: "GET /static/orders/images/image6.jpg HTTP/1.1" 200 139100
+[2025-03-20 17:34:59,785] INFO django.server: "GET /static/orders/images/image3.jpg HTTP/1.1" 200 206171
+[2025-03-20 17:34:59,807] INFO django.server: "GET /static/orders/images/image5.jpg HTTP/1.1" 200 240252
+[2025-03-20 17:35:00,753] WARNING django.request: Not Found: /favicon.ico
+[2025-03-20 17:35:00,753] WARNING django.server: "GET /favicon.ico HTTP/1.1" 404 3230
+[2025-03-20 17:36:32,676] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-20 17:37:00,791] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-20 17:37:30,117] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-20 17:37:30,177] INFO django.server: "GET /static/orders/css/styles.css HTTP/1.1" 200 2747
+[2025-03-20 17:37:30,221] INFO django.server: "GET /static/orders/js/scripts.js HTTP/1.1" 200 17322
+[2025-03-20 17:37:30,236] INFO django.server: "GET /static/orders/images/image3.jpg HTTP/1.1" 200 206171
+[2025-03-20 17:37:30,237] INFO django.server: "GET /static/orders/images/logo.png HTTP/1.1" 200 12329
+[2025-03-20 17:37:30,238] INFO django.server: "GET /static/orders/images/image1.jpg HTTP/1.1" 200 163361
+[2025-03-20 17:37:30,244] INFO django.server: "GET /static/orders/images/image2.jpg HTTP/1.1" 200 190249
+[2025-03-20 17:37:30,245] INFO django.server: "GET /static/orders/images/image4.jpg HTTP/1.1" 200 165098
+[2025-03-20 17:37:31,393] INFO django.server: "GET /static/orders/images/image5.jpg HTTP/1.1" 200 240252
+[2025-03-20 17:37:31,923] INFO django.server: "GET /static/orders/images/image6.jpg HTTP/1.1" 200 139100
+[2025-03-20 17:37:32,172] INFO django.server: "GET /static/orders/images/image7.jpg HTTP/1.1" 200 142191
+[2025-03-20 17:37:32,380] INFO django.server: "GET /static/orders/images/image8.jpg HTTP/1.1" 200 170748
+[2025-03-20 17:37:32,655] INFO django.server: "GET /static/orders/files/menu.jpg HTTP/1.1" 200 291842
+[2025-03-20 17:37:46,167] WARNING django.request: Not Found: /favicon.ico
+[2025-03-20 17:37:46,168] WARNING django.server: "GET /favicon.ico HTTP/1.1" 404 3230
+[2025-03-20 17:37:57,760] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-20 17:41:07,975] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-20 17:41:07,978] INFO django.server: - Broken pipe from ('192.168.0.17', 38696)
