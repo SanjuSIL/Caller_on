@@ -2169,3 +2169,368 @@ django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '124.124.79.123
 [2025-03-21 14:24:35,290] INFO django.server: "GET / HTTP/1.1" 200 5630
 [2025-03-21 14:24:38,801] INFO django.server: "GET / HTTP/1.1" 200 5630
 [2025-03-21 14:25:13,957] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:26:35,689] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:26:39,274] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:27:33,149] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:27:40,178] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2025-03-21 14:27:48,155] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:28:02,671] WARNING django.request: Not Found: /boaform/admin/formLogin
+[2025-03-21 14:28:02,672] WARNING django.server: "POST /boaform/admin/formLogin HTTP/1.1" 404 3271
+[2025-03-21 14:28:11,832] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:28:12,128] INFO django.server: "GET /static/orders/css/styles.css HTTP/1.1" 200 3038
+[2025-03-21 14:28:12,134] INFO django.server: "GET /static/orders/js/scripts.js HTTP/1.1" 200 17913
+[2025-03-21 14:28:14,208] INFO django.server: "GET /service-worker.js HTTP/1.1" 200 2940
+[2025-03-21 14:28:20,995] INFO django.server: "GET /check-status/?token_no=1000 HTTP/1.1" 200 114
+[2025-03-21 14:28:25,486] INFO django.server: "POST /vendors/api/save-subscription/ HTTP/1.1" 200 47
+[2025-03-21 14:28:33,423] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:29:29,721] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:29:31,900] INFO django.server: "GET /service-worker.js HTTP/1.1" 200 2940
+[2025-03-21 14:29:32,723] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:29:33,382] WARNING django.request: Not Found: /boaform/admin/formLogin
+[2025-03-21 14:29:33,383] WARNING django.server: "POST /boaform/admin/formLogin HTTP/1.1" 404 3271
+[2025-03-21 14:29:37,068] INFO django.server: "GET /check-status/?token_no=1001 HTTP/1.1" 200 118
+[2025-03-21 14:29:41,944] INFO django.server: "POST /vendors/api/save-subscription/ HTTP/1.1" 200 47
+[2025-03-21 14:29:54,522] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:30:00,342] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:30:00,844] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:30:01,455] INFO django.server: "GET /static/orders/images/logo.png HTTP/1.1" 200 12329
+[2025-03-21 14:30:01,460] INFO django.server: "GET /static/orders/css/styles.css HTTP/1.1" 200 3044
+[2025-03-21 14:30:01,461] INFO django.server: "GET /static/orders/images/image1.jpg HTTP/1.1" 200 163361
+[2025-03-21 14:30:01,783] INFO django.server: "GET /static/orders/images/image2.jpg HTTP/1.1" 200 190249
+[2025-03-21 14:30:01,788] INFO django.server: "GET /static/orders/js/scripts.js HTTP/1.1" 200 17913
+[2025-03-21 14:30:01,792] INFO django.server: "GET /static/orders/images/image4.jpg HTTP/1.1" 200 165098
+[2025-03-21 14:30:01,793] INFO django.server: "GET /static/orders/images/image3.jpg HTTP/1.1" 200 206171
+[2025-03-21 14:30:01,864] INFO django.server: "GET /static/orders/images/image5.jpg HTTP/1.1" 200 240252
+[2025-03-21 14:30:02,468] INFO django.server: "GET /static/orders/images/image6.jpg HTTP/1.1" 200 139100
+[2025-03-21 14:30:02,789] INFO django.server: "GET /static/orders/images/image7.jpg HTTP/1.1" 200 142191
+[2025-03-21 14:30:02,798] INFO django.server: "GET /static/orders/images/image8.jpg HTTP/1.1" 200 170748
+[2025-03-21 14:30:04,170] INFO django.server: "GET /static/orders/files/menu.jpg HTTP/1.1" 200 291842
+[2025-03-21 14:30:06,808] INFO django.server: "GET /service-worker.js HTTP/1.1" 200 2940
+[2025-03-21 14:30:08,185] INFO django.server: "GET /check-status/?token_no=1111 HTTP/1.1" 200 118
+[2025-03-21 14:30:12,022] INFO django.server: "POST /vendors/api/save-subscription/ HTTP/1.1" 200 47
+[2025-03-21 14:30:35,186] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:30:43,850] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:30:44,387] INFO django.server: "GET /static/orders/css/styles.css HTTP/1.1" 200 3044
+[2025-03-21 14:30:44,389] INFO django.server: "GET /static/orders/images/logo.png HTTP/1.1" 200 12329
+[2025-03-21 14:30:44,392] INFO django.server: "GET /static/orders/images/image1.jpg HTTP/1.1" 200 163361
+[2025-03-21 14:30:44,583] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:30:45,312] INFO django.server: "GET /static/orders/images/image1.jpg HTTP/1.1" 200 163361
+[2025-03-21 14:30:45,331] INFO django.server: "GET /static/orders/images/image2.jpg HTTP/1.1" 200 190249
+[2025-03-21 14:30:45,346] INFO django.server: "GET /static/orders/images/image3.jpg HTTP/1.1" 200 206171
+[2025-03-21 14:30:45,359] INFO django.server: "GET /static/orders/js/scripts.js HTTP/1.1" 200 17913
+[2025-03-21 14:30:45,363] INFO django.server: "GET /static/orders/images/image4.jpg HTTP/1.1" 200 165098
+[2025-03-21 14:30:45,364] INFO django.server: "GET /static/orders/images/image5.jpg HTTP/1.1" 200 240252
+[2025-03-21 14:30:45,506] INFO django.server: "GET /static/orders/images/image6.jpg HTTP/1.1" 200 139100
+[2025-03-21 14:30:45,506] INFO django.server: "GET /static/orders/images/image7.jpg HTTP/1.1" 200 142191
+[2025-03-21 14:30:45,509] INFO django.server: "GET /static/orders/images/image8.jpg HTTP/1.1" 200 170748
+[2025-03-21 14:30:45,515] INFO django.server: "GET /static/orders/files/menu.jpg HTTP/1.1" 200 291842
+[2025-03-21 14:30:52,149] INFO django.server: "GET /service-worker.js HTTP/1.1" 200 2940
+[2025-03-21 14:30:53,541] INFO django.server: "GET /check-status/?token_no=1000 HTTP/1.1" 200 114
+[2025-03-21 14:30:53,715] INFO django.server: "GET /static/orders/audio/0112.mp3 HTTP/1.1" 200 29228
+[2025-03-21 14:30:58,049] INFO django.server: "POST /vendors/api/save-subscription/ HTTP/1.1" 200 47
+[2025-03-21 14:31:05,267] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:31:21,205] INFO django.server: "GET /check-status/?token_no=500 HTTP/1.1" 201 253
+[2025-03-21 14:31:25,152] INFO django.server: "POST /vendors/api/save-subscription/ HTTP/1.1" 200 47
+[2025-03-21 14:32:02,100] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:32:31,891] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:33:28,313] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:34:20,443] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:35:02,220] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:35:44,450] INFO django.server: "GET /check-status/?token_no=1027 HTTP/1.1" 201 254
+[2025-03-21 14:35:47,889] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:35:48,754] INFO django.server: "POST /vendors/api/save-subscription/ HTTP/1.1" 200 47
+[2025-03-21 14:35:52,201] INFO vendors.utils: Sending push notification with payload: {'title': 'Order Update', 'body': 'Your order 1027 is now ready.', 'token_no': '1027', 'status': 'ready', 'counter_no': '3'} to subscription: {'endpoint': 'https://fcm.googleapis.com/fcm/send/eS4LONZSQ8E:APA91bFK738BL2hFw21fknFic4BU97dDoF3KGxfOV9qGG4ZvTdk4PJkCY0uc01HT1McPO4n9X-BV51CGO-LfTyusjHCGPCkYuptkbz3KqQm277ah_RyhIJCwGhmhxk0f4VyQLvgFqYKo', 'keys': {'p256dh': 'BJ_RbxZfg-rf6ppfaKWfixTUeNkjfguX9h_A_OIdmvBXSqg5EjcltyVJaRf8B_0s8Yg6lKP50-EvSY-oXbOZ3Ik', 'auth': 'xtxH8wJqNAURR5j0Xyk3GQ'}}
+[2025-03-21 14:35:52,592] INFO vendors.utils: Push notification sent successfully.
+[2025-03-21 14:35:52,595] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 69
+[2025-03-21 14:35:53,020] WARNING django.request: Not Found: /boaform/admin/formLogin
+[2025-03-21 14:35:53,020] WARNING django.server: "POST /boaform/admin/formLogin HTTP/1.1" 404 3271
+[2025-03-21 14:36:37,380] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:36:50,448] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:36:59,033] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:38:09,285] WARNING django.request: Method Not Allowed: /vendors/api/update-order/
+[2025-03-21 14:38:09,285] WARNING django.server: "GET /vendors/api/update-order/ HTTP/1.1" 405 6047
+[2025-03-21 14:38:09,551] INFO django.server: "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3426
+[2025-03-21 14:38:09,603] INFO django.server: "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3796
+[2025-03-21 14:38:09,603] INFO django.server: "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+[2025-03-21 14:38:09,604] INFO django.server: "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 200 87533
+[2025-03-21 14:38:09,605] INFO django.server: "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+[2025-03-21 14:38:09,607] INFO django.server: "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+[2025-03-21 14:38:09,615] INFO django.server: "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+[2025-03-21 14:38:09,616] INFO django.server: "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+[2025-03-21 14:38:09,618] INFO django.server: "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1793
+[2025-03-21 14:38:09,618] INFO django.server: "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 200 59
+[2025-03-21 14:38:09,620] INFO django.server: "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+[2025-03-21 14:38:10,297] INFO django.server: "GET /service-worker.js HTTP/1.1" 200 2940
+[2025-03-21 14:38:10,569] INFO django.server: "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+[2025-03-21 14:38:21,473] INFO vendors.utils: Sending push notification with payload: {'title': 'Order Update', 'body': 'Your order 1027 is now ready.', 'token_no': '1027', 'status': 'ready', 'counter_no': '3'} to subscription: {'endpoint': 'https://fcm.googleapis.com/fcm/send/eS4LONZSQ8E:APA91bFK738BL2hFw21fknFic4BU97dDoF3KGxfOV9qGG4ZvTdk4PJkCY0uc01HT1McPO4n9X-BV51CGO-LfTyusjHCGPCkYuptkbz3KqQm277ah_RyhIJCwGhmhxk0f4VyQLvgFqYKo', 'keys': {'p256dh': 'BJ_RbxZfg-rf6ppfaKWfixTUeNkjfguX9h_A_OIdmvBXSqg5EjcltyVJaRf8B_0s8Yg6lKP50-EvSY-oXbOZ3Ik', 'auth': 'xtxH8wJqNAURR5j0Xyk3GQ'}}
+[2025-03-21 14:38:22,080] INFO vendors.utils: Push notification sent successfully.
+[2025-03-21 14:38:22,095] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 6078
+[2025-03-21 14:38:23,754] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:38:27,652] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:38:41,775] INFO django.server: "GET /check-status/?token_no=1028 HTTP/1.1" 201 254
+[2025-03-21 14:38:45,893] INFO django.server: "POST /vendors/api/save-subscription/ HTTP/1.1" 200 47
+[2025-03-21 14:39:13,749] INFO vendors.utils: Sending push notification with payload: {'title': 'Order Update', 'body': 'Your order 1028 is now ready.', 'token_no': '1028', 'status': 'ready', 'counter_no': '3'} to subscription: {'endpoint': 'https://fcm.googleapis.com/fcm/send/d8JlQCdystk:APA91bE0UvzrUy9Wjjc6ZeoARDXgkCwgL6lFk7pXjBe5Z8Eb68DiuvMhSlvjDmMaVtk_FKPev3Kih_anlDf_0oGZVPFHXDKTDgbs-fIwVPbtUth3bTBJjI9aOZAleqVRl3Y8AJ7V42yO', 'keys': {'p256dh': 'BIBXjrk57DFbWHZoHCWnFP533IrlaSA3iGcChrsv6giTL54u3S58qjTuTND-2tEQ5SIKXH13Wd_CXAN_BB9eXEM', 'auth': 'mFvHpNbjma9ymHDKihd0Gg'}}
+[2025-03-21 14:39:14,358] INFO vendors.utils: Push notification sent successfully.
+[2025-03-21 14:39:14,373] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 6078
+[2025-03-21 14:39:25,529] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:39:38,804] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:39:39,367] INFO django.server: "GET /check-status/?token_no=1029 HTTP/1.1" 201 254
+[2025-03-21 14:39:43,449] INFO django.server: "POST /vendors/api/save-subscription/ HTTP/1.1" 200 47
+[2025-03-21 14:39:52,249] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:41:05,025] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:41:12,532] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:42:27,006] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:42:37,309] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:42:47,990] INFO django.server: code 400, message Bad request version ('À\x13À')
+[2025-03-21 14:42:47,990] ERROR django.server: You're accessing the development server over HTTPS, but it only supports HTTP.
+[2025-03-21 14:42:48,733] INFO django.server: code 400, message Bad request version ('À(À$À\x14À')
+[2025-03-21 14:42:48,734] ERROR django.server: You're accessing the development server over HTTPS, but it only supports HTTP.
+[2025-03-21 14:43:18,249] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:43:18,707] INFO django.server: "GET /static/orders/css/styles.css HTTP/1.1" 200 3044
+[2025-03-21 14:43:18,709] INFO django.server: "GET /static/orders/images/logo.png HTTP/1.1" 200 12329
+[2025-03-21 14:43:19,056] INFO django.server: "GET /static/orders/images/image1.jpg HTTP/1.1" 200 163361
+[2025-03-21 14:43:19,091] INFO django.server: "GET /static/orders/images/image3.jpg HTTP/1.1" 200 206171
+[2025-03-21 14:43:19,316] INFO django.server: "GET /static/orders/images/image2.jpg HTTP/1.1" 200 190249
+[2025-03-21 14:43:19,370] INFO django.server: "GET /static/orders/images/image6.jpg HTTP/1.1" 200 139100
+[2025-03-21 14:43:19,428] INFO django.server: "GET /static/orders/images/image8.jpg HTTP/1.1" 200 170748
+[2025-03-21 14:43:19,450] INFO django.server: "GET /static/orders/images/image7.jpg HTTP/1.1" 200 142191
+[2025-03-21 14:43:21,117] INFO django.server: "GET /static/orders/js/scripts.js HTTP/1.1" 200 17913
+[2025-03-21 14:43:21,119] INFO django.server: "GET /static/orders/images/image4.jpg HTTP/1.1" 200 165098
+[2025-03-21 14:43:21,489] INFO django.server: "GET /static/orders/images/image5.jpg HTTP/1.1" 200 240252
+[2025-03-21 14:43:21,664] INFO django.server: "GET /static/orders/files/menu.jpg HTTP/1.1" 200 291842
+[2025-03-21 14:43:23,169] WARNING django.request: Not Found: /favicon.ico
+[2025-03-21 14:43:23,170] WARNING django.server: "GET /favicon.ico HTTP/1.1" 404 3231
+[2025-03-21 14:43:50,701] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:43:54,657] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:44:57,229] INFO vendors.utils: Sending push notification with payload: {'title': 'Order Update', 'body': 'Your order 1029 is now ready.', 'token_no': '1029', 'status': 'ready', 'counter_no': '3'} to subscription: {'endpoint': 'https://fcm.googleapis.com/fcm/send/c289S4J1Ss0:APA91bGtO-FyP3Nk8j4AmR15G0ubgRL7gF3ypZbMLNFsklMHpsVn6PtDkicDXfzwvdcBFtStJ58FvEVdo80OJEMue_S2Ji3M-smQSCKTs-SmVfmAaS6RVNCsY6CkNo2ewBJyH-M3_o51', 'keys': {'p256dh': 'BDOk_gfbDGPPL5zxCBi54Om0nQVsm47yLWhDAlSCEUKyDoWY5n_szelDYdqfhxbXcN6CcJOXzdzhjXZl_4z0GbE', 'auth': 'uJrmvjtAnawA0Zymhy2fqg'}}
+[2025-03-21 14:44:57,948] INFO vendors.utils: Push notification sent successfully.
+[2025-03-21 14:44:57,962] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 6078
+[2025-03-21 14:45:19,538] INFO django.server: "GET /check-status/?token_no=1030 HTTP/1.1" 201 254
+[2025-03-21 14:45:23,429] INFO django.server: "POST /vendors/api/save-subscription/ HTTP/1.1" 200 47
+[2025-03-21 14:45:24,114] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:45:33,178] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:45:33,945] INFO vendors.utils: Sending push notification with payload: {'title': 'Order Update', 'body': 'Your order 1030 is now ready.', 'token_no': '1030', 'status': 'ready', 'counter_no': '3'} to subscription: {'endpoint': 'https://fcm.googleapis.com/fcm/send/fLk9U-N79io:APA91bG2tzJkr26DaH8ExUFGYqRSUVSMRTnyZMwdmqbSQScV2p5fB57NwiRA_vq_xOwHjakfYU3y7LExJpNCJmLTi4PfZOKqlV_Sy1kNwZXPUgdCdG6W9_wRgDqsYz9zf1BaTa0DJd-K', 'keys': {'p256dh': 'BDO6cftBBB68HuBj1lVomKUEB1UVu_vLnSD-sm3w0vzJAinSDiqOb-8j5Q3eDgTFJTlu_lyXN1N729TV7NUy_84', 'auth': 'zymTO3GG7e5QkrHYp0h9Cg'}}
+[2025-03-21 14:45:34,550] INFO vendors.utils: Push notification sent successfully.
+[2025-03-21 14:45:34,564] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 6078
+[2025-03-21 14:46:18,808] WARNING django.request: Not Found: /ifconfig.co:443
+[2025-03-21 14:46:18,809] WARNING django.server: "CONNECT ifconfig.co:443 HTTP/1.1" 404 1850
+[2025-03-21 14:46:28,972] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:47:11,287] WARNING django.request: Not Found: /boaform/admin/formLogin
+[2025-03-21 14:47:11,287] WARNING django.server: "POST /boaform/admin/formLogin HTTP/1.1" 404 3271
+[2025-03-21 14:47:12,014] INFO vendors.utils: Sending push notification with payload: {'title': 'Order Update', 'body': 'Your order 1030 is now ready.', 'token_no': '1030', 'status': 'ready', 'counter_no': '3'} to subscription: {'endpoint': 'https://fcm.googleapis.com/fcm/send/fLk9U-N79io:APA91bG2tzJkr26DaH8ExUFGYqRSUVSMRTnyZMwdmqbSQScV2p5fB57NwiRA_vq_xOwHjakfYU3y7LExJpNCJmLTi4PfZOKqlV_Sy1kNwZXPUgdCdG6W9_wRgDqsYz9zf1BaTa0DJd-K', 'keys': {'p256dh': 'BDO6cftBBB68HuBj1lVomKUEB1UVu_vLnSD-sm3w0vzJAinSDiqOb-8j5Q3eDgTFJTlu_lyXN1N729TV7NUy_84', 'auth': 'zymTO3GG7e5QkrHYp0h9Cg'}}
+[2025-03-21 14:47:12,294] INFO vendors.utils: Push notification sent successfully.
+[2025-03-21 14:47:12,309] INFO django.server: "PATCH /vendors/api/update-order/ HTTP/1.1" 200 6078
+[2025-03-21 14:47:22,546] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:47:24,406] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:47:24,671] INFO django.server: "GET /static/orders/css/styles.css HTTP/1.1" 304 0
+[2025-03-21 14:47:24,773] INFO django.server: "GET /static/orders/js/scripts.js HTTP/1.1" 304 0
+[2025-03-21 14:47:25,381] WARNING django.request: Not Found: /favicon.ico
+[2025-03-21 14:47:25,382] WARNING django.server: "GET /favicon.ico HTTP/1.1" 404 3254
+[2025-03-21 14:47:27,186] INFO django.server: "GET /service-worker.js HTTP/1.1" 200 2940
+[2025-03-21 14:47:40,169] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:48:26,888] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:48:32,132] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:49:18,711] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:49:36,787] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:50:01,505] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:50:01,819] WARNING django.server: "GET /static/orders/manifest.json HTTP/1.1" 404 2010
+[2025-03-21 14:50:01,865] INFO django.server: "GET /static/orders/css/styles.css HTTP/1.1" 200 3044
+[2025-03-21 14:50:01,865] INFO django.server: "GET /static/orders/js/scripts.js HTTP/1.1" 200 17913
+[2025-03-21 14:50:02,132] INFO django.server: "GET /static/orders/images/logo.png HTTP/1.1" 200 12329
+[2025-03-21 14:50:02,215] INFO django.server: "GET /static/orders/images/image1.jpg HTTP/1.1" 200 163361
+[2025-03-21 14:50:02,486] INFO django.server: "GET /static/orders/images/image2.jpg HTTP/1.1" 200 190249
+[2025-03-21 14:50:02,564] INFO django.server: "GET /service-worker.js HTTP/1.1" 200 2940
+[2025-03-21 14:50:03,248] INFO django.server: "GET /static/orders/images/image3.jpg HTTP/1.1" 200 206171
+[2025-03-21 14:50:03,938] INFO django.server: "GET /static/orders/images/image4.jpg HTTP/1.1" 200 165098
+[2025-03-21 14:50:04,539] INFO django.server: "GET /static/orders/images/image5.jpg HTTP/1.1" 200 240252
+[2025-03-21 14:50:04,621] INFO django.server: "GET /static/orders/images/image6.jpg HTTP/1.1" 200 139100
+[2025-03-21 14:50:04,735] INFO django.server: "GET /static/orders/images/image7.jpg HTTP/1.1" 200 142191
+[2025-03-21 14:50:04,737] INFO django.server: "GET /static/orders/images/image8.jpg HTTP/1.1" 200 170748
+[2025-03-21 14:50:04,740] INFO django.server: "GET /static/orders/files/menu.jpg HTTP/1.1" 200 291842
+[2025-03-21 14:50:43,496] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:51:04,997] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:51:24,787] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:52:45,554] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:53:12,414] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:54:03,525] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:54:04,923] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:55:53,756] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:57:38,586] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:58:18,783] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 14:59:39,488] WARNING django.request: Not Found: /boaform/admin/formLogin
+[2025-03-21 14:59:39,489] WARNING django.server: "POST /boaform/admin/formLogin HTTP/1.1" 404 3271
+[2025-03-21 15:00:11,590] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 15:00:13,606] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 15:01:20,891] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 15:03:16,958] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 15:04:13,576] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 15:04:42,074] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 15:06:07,362] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 15:06:52,707] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 15:08:25,829] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 15:09:55,520] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 15:10:52,977] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 15:12:58,025] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 15:13:55,413] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 15:15:42,620] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 15:16:52,838] WARNING django.request: Not Found: /boaform/admin/formLogin
+[2025-03-21 15:16:52,839] WARNING django.server: "POST /boaform/admin/formLogin HTTP/1.1" 404 3271
+[2025-03-21 15:17:14,090] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 15:17:26,690] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 15:18:07,045] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 15:18:12,127] WARNING django.request: Not Found: /actuator/gateway/routes
+[2025-03-21 15:18:12,128] WARNING django.server: "GET /actuator/gateway/routes HTTP/1.1" 404 3270
+[2025-03-21 15:18:23,060] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 15:19:12,860] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 15:19:38,124] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 15:20:17,067] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 15:21:28,606] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 15:21:31,065] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 15:22:45,409] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 15:23:27,114] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 15:23:57,899] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 15:24:17,385] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 15:25:39,325] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 15:26:00,894] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 15:26:49,764] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 15:27:37,644] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 15:28:57,266] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 15:29:30,355] INFO django.server: "GET /service-worker.js HTTP/1.1" 200 2940
+[2025-03-21 15:29:44,406] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 15:29:45,115] INFO django.server: "GET /static/orders/css/styles.css HTTP/1.1" 304 0
+[2025-03-21 15:29:45,263] INFO django.server: "GET /static/orders/js/scripts.js HTTP/1.1" 304 0
+[2025-03-21 15:29:47,220] INFO django.server: "GET /service-worker.js HTTP/1.1" 200 2940
+[2025-03-21 15:30:31,273] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 15:30:37,663] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 15:31:38,189] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 15:31:38,801] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 15:32:11,868] INFO django.server: "GET /service-worker.js HTTP/1.1" 200 2940
+[2025-03-21 15:32:11,889] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 15:32:12,645] INFO django.server: "GET /static/orders/images/logo.png HTTP/1.1" 304 0
+[2025-03-21 15:32:12,652] INFO django.server: "GET /static/orders/images/image1.jpg HTTP/1.1" 304 0
+[2025-03-21 15:32:12,655] INFO django.server: "GET /static/orders/css/styles.css HTTP/1.1" 200 3044
+[2025-03-21 15:32:12,656] INFO django.server: "GET /static/orders/images/image3.jpg HTTP/1.1" 304 0
+[2025-03-21 15:32:12,656] INFO django.server: "GET /static/orders/images/image4.jpg HTTP/1.1" 304 0
+[2025-03-21 15:32:12,810] INFO django.server: "GET /static/orders/images/image2.jpg HTTP/1.1" 304 0
+[2025-03-21 15:32:12,826] INFO django.server: "GET /static/orders/images/image5.jpg HTTP/1.1" 304 0
+[2025-03-21 15:32:12,826] INFO django.server: "GET /static/orders/images/image7.jpg HTTP/1.1" 304 0
+[2025-03-21 15:32:12,828] INFO django.server: "GET /static/orders/images/image6.jpg HTTP/1.1" 304 0
+[2025-03-21 15:32:12,831] INFO django.server: "GET /static/orders/images/image8.jpg HTTP/1.1" 304 0
+[2025-03-21 15:32:13,023] INFO django.server: "GET /static/orders/files/menu.jpg HTTP/1.1" 304 0
+[2025-03-21 15:32:13,026] INFO django.server: "GET /static/orders/js/scripts.js HTTP/1.1" 200 17913
+[2025-03-21 15:32:15,245] INFO django.server: "GET /service-worker.js HTTP/1.1" 200 2940
+[2025-03-21 15:32:19,907] WARNING django.request: Not Found: /boaform/admin/formLogin
+[2025-03-21 15:32:19,908] WARNING django.server: "POST /boaform/admin/formLogin HTTP/1.1" 404 3271
+[2025-03-21 15:33:10,053] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 15:33:11,247] INFO django.server: "GET /static/orders/images/image1.jpg HTTP/1.1" 304 0
+[2025-03-21 15:33:11,253] INFO django.server: "GET /static/orders/images/logo.png HTTP/1.1" 304 0
+[2025-03-21 15:33:11,254] INFO django.server: "GET /static/orders/css/styles.css HTTP/1.1" 200 3044
+[2025-03-21 15:33:11,308] INFO django.server: "GET /static/orders/images/image3.jpg HTTP/1.1" 304 0
+[2025-03-21 15:33:11,448] INFO django.server: "GET /static/orders/images/image2.jpg HTTP/1.1" 304 0
+[2025-03-21 15:33:11,450] INFO django.server: "GET /static/orders/images/image4.jpg HTTP/1.1" 304 0
+[2025-03-21 15:33:11,604] INFO django.server: "GET /static/orders/images/image8.jpg HTTP/1.1" 304 0
+[2025-03-21 15:33:11,614] INFO django.server: "GET /static/orders/images/image5.jpg HTTP/1.1" 304 0
+[2025-03-21 15:33:11,615] INFO django.server: "GET /static/orders/images/image7.jpg HTTP/1.1" 304 0
+[2025-03-21 15:33:11,616] INFO django.server: "GET /static/orders/images/image6.jpg HTTP/1.1" 304 0
+[2025-03-21 15:33:11,716] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 15:33:11,922] INFO django.server: "GET /static/orders/js/scripts.js HTTP/1.1" 200 17913
+[2025-03-21 15:33:11,947] INFO django.server: "GET /static/orders/files/menu.jpg HTTP/1.1" 304 0
+[2025-03-21 15:33:12,711] WARNING django.request: Not Found: /favicon.ico
+[2025-03-21 15:33:12,712] WARNING django.server: "GET /favicon.ico HTTP/1.1" 404 3254
+[2025-03-21 15:33:14,370] INFO django.server: "GET /service-worker.js HTTP/1.1" 200 2940
+[2025-03-21 15:33:44,029] INFO django.server: "GET /service-worker.js HTTP/1.1" 200 2940
+[2025-03-21 15:34:23,333] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 15:34:41,496] INFO django.server: "GET /service-worker.js HTTP/1.1" 200 2940
+[2025-03-21 15:34:41,549] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 15:34:42,271] INFO django.server: "GET /static/orders/js/scripts.js HTTP/1.1" 200 17913
+[2025-03-21 15:34:42,273] INFO django.server: "GET /static/orders/images/image8.jpg HTTP/1.1" 200 170748
+[2025-03-21 15:35:24,277] WARNING django.request: Not Found: /boaform/admin/formLogin
+[2025-03-21 15:35:24,278] WARNING django.server: "POST /boaform/admin/formLogin HTTP/1.1" 404 3271
+[2025-03-21 15:36:03,299] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 15:37:17,867] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 15:39:07,268] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 15:39:53,836] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 15:39:53,882] INFO django.server: "GET /static/orders/css/styles.css HTTP/1.1" 200 3044
+[2025-03-21 15:39:53,886] INFO django.server: "GET /static/orders/js/scripts.js HTTP/1.1" 304 0
+[2025-03-21 15:39:54,634] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 15:39:55,019] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 15:40:18,985] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 15:40:32,375] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 15:41:42,250] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 15:43:21,538] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 15:44:00,875] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2025-03-21 15:44:33,242] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 15:46:16,401] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 15:46:43,033] WARNING django.request: Not Found: /boaform/admin/formLogin
+[2025-03-21 15:46:43,034] WARNING django.server: "POST /boaform/admin/formLogin HTTP/1.1" 404 3271
+[2025-03-21 15:47:17,924] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 15:48:17,979] INFO django.utils.autoreload: /home/silpc065/SANJU/Caller_on/caller_on/settings.py changed, reloading.
+[2025-03-21 15:48:18,346] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2025-03-21 15:48:19,763] INFO django.utils.autoreload: /home/silpc065/SANJU/Caller_on/caller_on/settings.py changed, reloading.
+[2025-03-21 15:48:20,169] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2025-03-21 15:48:47,420] INFO django.utils.autoreload: /home/silpc065/SANJU/Caller_on/caller_on/settings.py changed, reloading.
+[2025-03-21 15:48:47,879] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2025-03-21 15:48:59,715] INFO django.utils.autoreload: /home/silpc065/SANJU/Caller_on/caller_on/settings.py changed, reloading.
+[2025-03-21 15:49:00,161] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2025-03-21 15:49:07,837] INFO django.server: "GET / HTTP/1.1" 301 0
+[2025-03-21 15:50:42,340] INFO django.server: "GET / HTTP/1.1" 301 0
+[2025-03-21 15:51:05,678] INFO django.server: "GET / HTTP/1.1" 301 0
+[2025-03-21 15:51:39,277] INFO django.server: "GET / HTTP/1.1" 301 0
+[2025-03-21 15:51:41,414] INFO django.server: "GET / HTTP/1.1" 301 0
+[2025-03-21 15:51:50,278] INFO django.server: code 400, message Bad request version ('£U')
+[2025-03-21 15:51:50,278] ERROR django.server: You're accessing the development server over HTTPS, but it only supports HTTP.
+[2025-03-21 15:51:50,283] INFO django.server: code 400, message Bad request version ('\x02h2\x08http/1.1\x003\x04ï\x04íºº\x00\x01\x00\x11ì\x04À\x96²')
+[2025-03-21 15:51:50,283] ERROR django.server: You're accessing the development server over HTTPS, but it only supports HTTP.
+[2025-03-21 15:51:50,292] INFO django.server: code 400, message Bad request version ('\x00\x02\x01\x00\x00\x1b\x00\x03\x02\x00\x02\x00')
+[2025-03-21 15:51:50,292] ERROR django.server: You're accessing the development server over HTTPS, but it only supports HTTP.
+[2025-03-21 15:51:50,293] INFO django.server: code 400, message Bad request version ('ÚÚ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06eÊÊ\x00\x00\x00\x12\x00\x00\x00')
+[2025-03-21 15:51:50,293] ERROR django.server: You're accessing the development server over HTTPS, but it only supports HTTP.
+[2025-03-21 15:51:50,295] INFO django.server: code 400, message Bad request syntax ('\x16\x03\x01\x07\x12\x01\x00\x07\x0e\x03\x03X¾ì®1ä8\x15')
+[2025-03-21 15:51:50,296] ERROR django.server: You're accessing the development server over HTTPS, but it only supports HTTP.
+[2025-03-21 15:51:50,297] INFO django.server: code 400, message Bad request version ('\x8b5çäw.ò¡Â©@»hð#\x8e¸<B\x891\x7f\x1avYÉì>\x86´Ú9\x00')
+[2025-03-21 15:51:50,297] ERROR django.server: You're accessing the development server over HTTPS, but it only supports HTTP.
+[2025-03-21 15:53:12,622] INFO django.server: "GET / HTTP/1.1" 301 0
+[2025-03-21 15:55:01,322] INFO django.server: "GET / HTTP/1.1" 301 0
+[2025-03-21 15:56:17,875] INFO django.server: "GET / HTTP/1.1" 301 0
+[2025-03-21 15:56:29,257] INFO django.server: "GET / HTTP/1.1" 301 0
+[2025-03-21 15:56:47,771] INFO django.utils.autoreload: /home/silpc065/SANJU/Caller_on/caller_on/settings.py changed, reloading.
+[2025-03-21 15:56:48,262] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2025-03-21 15:57:12,396] INFO django.utils.autoreload: /home/silpc065/SANJU/Caller_on/caller_on/settings.py changed, reloading.
+[2025-03-21 15:57:12,795] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2025-03-21 15:57:15,291] INFO django.utils.autoreload: /home/silpc065/SANJU/Caller_on/caller_on/settings.py changed, reloading.
+[2025-03-21 15:57:15,731] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2025-03-21 15:59:50,399] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 16:00:04,978] WARNING django.request: Not Found: /boaform/admin/formLogin
+[2025-03-21 16:00:04,979] WARNING django.server: "POST /boaform/admin/formLogin HTTP/1.1" 404 3271
+[2025-03-21 16:01:31,387] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 16:02:37,874] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 16:04:19,807] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 16:05:37,032] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 16:06:35,942] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 16:07:46,728] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 16:08:20,924] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 16:08:58,893] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 16:09:53,963] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 16:10:47,624] WARNING django.request: Not Found: /geoserver
+[2025-03-21 16:10:47,625] WARNING django.server: "GET /geoserver HTTP/1.1" 404 3228
+[2025-03-21 16:11:01,737] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 16:11:02,335] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 16:12:10,176] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 16:12:49,959] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 16:12:55,397] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 16:13:46,141] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 16:14:14,784] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 16:14:27,903] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 16:14:27,986] INFO django.server: "GET /static/orders/css/styles.css HTTP/1.1" 200 3044
+[2025-03-21 16:14:27,998] INFO django.server: "GET /static/orders/js/scripts.js HTTP/1.1" 200 17913
+[2025-03-21 16:14:28,102] WARNING django.request: Not Found: /favicon.ico
+[2025-03-21 16:14:28,102] WARNING django.server: "GET /favicon.ico HTTP/1.1" 404 3230
+[2025-03-21 16:14:50,366] INFO django.server: "HEAD / HTTP/1.1" 200 0
+[2025-03-21 16:14:56,928] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 16:15:22,387] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 16:15:22,896] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 16:16:05,283] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 16:16:52,962] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 16:16:56,136] INFO django.server: "GET / HTTP/1.1" 200 5630
+[2025-03-21 16:17:16,039] INFO django.utils.autoreload: /home/silpc065/SANJU/Caller_on/caller_on/settings.py changed, reloading.
+[2025-03-21 16:17:16,489] INFO django.utils.autoreload: Watching for file changes with StatReloader

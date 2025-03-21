@@ -91,7 +91,7 @@ body {
   .message-row {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items:last baseline;
   }
   
   .message-content {
@@ -100,8 +100,8 @@ body {
   }
   
   .message-timestamp {
-    font-size: 0.8rem;
-    opacity: 0.8;
+    font-size: 0.6rem;
+    opacity: 0.5;
     white-space: nowrap;
     margin-left: 8px;
   }
