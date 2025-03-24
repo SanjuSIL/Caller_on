@@ -2534,3 +2534,66 @@ django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '124.124.79.123
 [2025-03-21 16:16:56,136] INFO django.server: "GET / HTTP/1.1" 200 5630
 [2025-03-21 16:17:16,039] INFO django.utils.autoreload: /home/silpc065/SANJU/Caller_on/caller_on/settings.py changed, reloading.
 [2025-03-21 16:17:16,489] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2025-03-24 15:36:02,986] WARNING django.request: Not Found: /static/orders/images/image1.jpg
+[2025-03-24 15:36:03,034] WARNING django.request: Not Found: /static/orders/images/image2.jpg
+[2025-03-24 15:36:03,035] WARNING django.request: Not Found: /static/orders/css/styles.css
+[2025-03-24 15:36:03,050] WARNING django.request: Not Found: /static/orders/images/image4.jpg
+[2025-03-24 15:36:03,151] WARNING django.request: Not Found: /static/orders/images/logo.png
+[2025-03-24 15:36:03,218] WARNING django.request: Not Found: /static/orders/images/image3.jpg
+[2025-03-24 15:36:03,454] WARNING django.request: Not Found: /static/orders/images/image8.jpg
+[2025-03-24 15:36:03,462] WARNING django.request: Not Found: /static/orders/images/image5.jpg
+[2025-03-24 15:36:03,487] WARNING django.request: Not Found: /static/orders/images/image6.jpg
+[2025-03-24 15:36:03,732] WARNING django.request: Not Found: /static/orders/js/scripts.js
+[2025-03-24 15:36:03,796] WARNING django.request: Not Found: /static/orders/images/image7.jpg
+[2025-03-24 15:36:03,814] WARNING django.request: Not Found: /static/orders/files/menu.jpg
+[2025-03-24 15:37:39,426] WARNING django.request: Not Found: /static/orders/manifest.json
+[2025-03-24 15:37:39,595] WARNING django.request: Not Found: /static/orders/js/scripts.js
+[2025-03-24 15:37:39,778] WARNING django.request: Not Found: /static/orders/css/styles.css
+[2025-03-24 15:37:40,067] WARNING django.request: Not Found: /static/orders/images/logo.png
+[2025-03-24 15:37:40,211] WARNING django.request: Not Found: /static/orders/images/image1.jpg
+[2025-03-24 15:37:40,477] WARNING django.request: Not Found: /static/orders/images/image3.jpg
+[2025-03-24 15:37:40,548] WARNING django.request: Not Found: /static/orders/images/image2.jpg
+[2025-03-24 15:37:40,727] WARNING django.request: Not Found: /static/orders/images/image4.jpg
+[2025-03-24 15:37:40,802] WARNING django.request: Not Found: /static/orders/images/image5.jpg
+[2025-03-24 15:37:41,268] WARNING django.request: Not Found: /static/orders/images/image6.jpg
+[2025-03-24 15:37:41,273] WARNING django.request: Not Found: /static/orders/images/image8.jpg
+[2025-03-24 15:37:41,279] WARNING django.request: Not Found: /static/orders/images/image7.jpg
+[2025-03-24 15:37:41,550] WARNING django.request: Not Found: /static/orders/files/menu.jpg
+[2025-03-24 15:37:43,381] WARNING django.request: Not Found: /static/orders/manifest.json
+[2025-03-24 15:37:43,420] WARNING django.request: Not Found: /static/orders/css/styles.css
+[2025-03-24 15:37:43,594] WARNING django.request: Not Found: /static/orders/js/scripts.js
+[2025-03-24 15:37:43,725] WARNING django.request: Not Found: /static/orders/images/logo.png
+[2025-03-24 15:37:43,980] WARNING django.request: Not Found: /static/orders/images/image3.jpg
+[2025-03-24 15:37:44,000] WARNING django.request: Not Found: /static/orders/images/image8.jpg
+[2025-03-24 15:37:44,008] WARNING django.request: Not Found: /static/orders/images/image2.jpg
+[2025-03-24 15:37:44,040] WARNING django.request: Not Found: /static/orders/images/image1.jpg
+[2025-03-24 15:37:44,123] WARNING django.request: Not Found: /static/orders/images/image4.jpg
+[2025-03-24 15:37:44,251] WARNING django.request: Not Found: /static/orders/images/image5.jpg
+[2025-03-24 15:37:44,251] WARNING django.request: Not Found: /static/orders/images/image7.jpg
+[2025-03-24 15:37:44,268] WARNING django.request: Not Found: /static/orders/images/image6.jpg
+[2025-03-24 15:37:44,541] WARNING django.request: Not Found: /static/orders/files/menu.jpg
+[2025-03-24 15:38:12,225] WARNING django.request: Not Found: /static/orders/manifest.json
+[2025-03-24 15:38:12,389] WARNING django.request: Not Found: /static/orders/js/scripts.js
+[2025-03-24 15:38:12,561] WARNING django.request: Not Found: /static/orders/css/styles.css
+[2025-03-24 15:38:12,676] WARNING django.request: Not Found: /static/orders/images/logo.png
+[2025-03-24 15:38:12,896] WARNING django.request: Not Found: /static/orders/images/image1.jpg
+[2025-03-24 15:38:12,926] WARNING django.request: Not Found: /static/orders/images/image7.jpg
+[2025-03-24 15:38:12,934] WARNING django.request: Not Found: /static/orders/images/image3.jpg
+[2025-03-24 15:38:12,959] WARNING django.request: Not Found: /static/orders/images/image8.jpg
+[2025-03-24 15:38:12,969] WARNING django.request: Not Found: /static/orders/images/image2.jpg
+[2025-03-24 15:38:13,067] WARNING django.request: Not Found: /static/orders/images/image4.jpg
+[2025-03-24 15:38:13,257] WARNING django.request: Not Found: /static/orders/images/image6.jpg
+[2025-03-24 15:38:13,257] WARNING django.request: Not Found: /static/orders/images/image5.jpg
+[2025-03-24 15:38:13,545] WARNING django.request: Not Found: /static/orders/files/menu.jpg
+[2025-03-24 15:44:07,483] WARNING django.request: Not Found: /static/orders/manifest.json
+[2025-03-24 15:44:51,590] WARNING django.request: Not Found: /favicon.ico
+[2025-03-24 15:45:41,819] WARNING django.request: Not Found: /favicon.ico
+[2025-03-24 15:53:28,105] WARNING django.request: Not Found: /boaform/admin/formLogin
+[2025-03-24 15:53:37,828] WARNING django.request: Not Found: /boaform/admin/formLogin
+[2025-03-24 15:54:35,931] WARNING django.request: Not Found: /boaform/admin/formLogin
+[2025-03-24 16:04:20,014] INFO vendors.utils: Sending push notification with payload: {'title': 'Order Update', 'body': 'Your order 2000 is now ready.', 'token_no': '2000', 'status': 'ready', 'counter_no': '3'} to subscription: {'endpoint': 'https://web.push.apple.com/QKkEuIkUGzvB51tEU4RMjTSpB7w5iZP6FuT6HFagAwmF9oJRThrXYMOlqgsSXZFNETRspWPqpwPt4WU-H4QzoAHpayotXx2dRB4O70ksXlJbHSHR2wUoQLyRlP6ZqkZ46r-88cebF3bIXTEbhee_VvwdOxHJTO-kE_7fmVm2f7Y', 'keys': {'p256dh': 'BPqsiBc7j1lyBAO-XnbDSYIgSewyQ2dm715sOZjOekm1QWCUWS9bfFkkRpSwhidhu3N-jInYODHH4nnGv43g6HQ', 'auth': 'nj3-HEmZyUBU4XXH0AZ-dA'}}
+[2025-03-24 16:04:20,925] INFO vendors.utils: Push notification sent successfully.
+[2025-03-24 16:04:31,281] INFO vendors.utils: Sending push notification with payload: {'title': 'Order Update', 'body': 'Your order 2000 is now ready.', 'token_no': '2000', 'status': 'ready', 'counter_no': '3'} to subscription: {'endpoint': 'https://web.push.apple.com/QKkEuIkUGzvB51tEU4RMjTSpB7w5iZP6FuT6HFagAwmF9oJRThrXYMOlqgsSXZFNETRspWPqpwPt4WU-H4QzoAHpayotXx2dRB4O70ksXlJbHSHR2wUoQLyRlP6ZqkZ46r-88cebF3bIXTEbhee_VvwdOxHJTO-kE_7fmVm2f7Y', 'keys': {'p256dh': 'BPqsiBc7j1lyBAO-XnbDSYIgSewyQ2dm715sOZjOekm1QWCUWS9bfFkkRpSwhidhu3N-jInYODHH4nnGv43g6HQ', 'auth': 'nj3-HEmZyUBU4XXH0AZ-dA'}}
+[2025-03-24 16:04:32,030] INFO vendors.utils: Push notification sent successfully.
+[2025-03-24 16:04:58,730] INFO vendors.utils: Sending push notification with payload: {'title': 'Order Update', 'body': 'Your order 2000 is now ready.', 'token_no': '2000', 'status': 'ready', 'counter_no': '3'} to subscription: {'endpoint': 'https://web.push.apple.com/QKkEuIkUGzvB51tEU4RMjTSpB7w5iZP6FuT6HFagAwmF9oJRThrXYMOlqgsSXZFNETRspWPqpwPt4WU-H4QzoAHpayotXx2dRB4O70ksXlJbHSHR2wUoQLyRlP6ZqkZ46r-88cebF3bIXTEbhee_VvwdOxHJTO-kE_7fmVm2f7Y', 'keys': {'p256dh': 'BPqsiBc7j1lyBAO-XnbDSYIgSewyQ2dm715sOZjOekm1QWCUWS9bfFkkRpSwhidhu3N-jInYODHH4nnGv43g6HQ', 'auth': 'nj3-HEmZyUBU4XXH0AZ-dA'}}
+[2025-03-24 16:04:59,615] INFO vendors.utils: Push notification sent successfully.
